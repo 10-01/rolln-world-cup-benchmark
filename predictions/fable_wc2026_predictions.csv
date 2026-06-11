@@ -1,0 +1,105 @@
+model_name,match_id,round,group,slot_team_a,slot_team_b,model_team_a,model_team_b,predicted_outcome,predicted_winner,predicted_score_team_a,predicted_score_team_b,team_a_win_prob,draw_prob,team_b_win_prob,confidence,rationale
+Fable 5,GA1,Group stage,A,Mexico,South Africa,Mexico,South Africa,team_a_win,Mexico,1,0,0.5982,0.2275,0.1743,0.5982,Elo 1695 v 1629; Poisson xG 1.80-0.86; 90-minute W/D/L probabilities
+Fable 5,GA2,Group stage,A,South Korea,Czech Republic,South Korea,Czech Republic,team_a_win,South Korea,1,0,0.5546,0.2414,0.2040,0.5546,Elo 1694 v 1601; Poisson xG 1.68-0.92; 90-minute W/D/L probabilities
+Fable 5,GA3,Group stage,A,Czech Republic,South Africa,Czech Republic,South Africa,team_b_win,South Africa,0,1,0.3109,0.2681,0.4210,0.4210,Elo 1601 v 1629; Poisson xG 1.13-1.36; 90-minute W/D/L probabilities
+Fable 5,GA4,Group stage,A,Mexico,South Korea,Mexico,South Korea,team_a_win,Mexico,1,0,0.4643,0.2622,0.2735,0.4643,Elo 1695 v 1694; Poisson xG 1.46-1.06; 90-minute W/D/L probabilities
+Fable 5,GA5,Group stage,A,Czech Republic,Mexico,Czech Republic,Mexico,team_b_win,Mexico,0,1,0.1387,0.2059,0.6554,0.6554,Elo 1601 v 1695; Poisson xG 0.78-1.98; 90-minute W/D/L probabilities
+Fable 5,GA6,Group stage,A,South Africa,South Korea,South Africa,South Korea,team_b_win,South Korea,0,1,0.2483,0.2563,0.4954,0.4954,Elo 1629 v 1694; Poisson xG 1.01-1.53; 90-minute W/D/L probabilities
+Fable 5,GB1,Group stage,B,Bosnia & Herzegovina,Switzerland,Bosnia & Herzegovina,Switzerland,team_b_win,Switzerland,0,2,0.0789,0.1528,0.7683,0.7683,Elo 1495 v 1701; Poisson xG 0.64-2.42; 90-minute W/D/L probabilities
+Fable 5,GB2,Group stage,B,Canada,Qatar,Canada,Qatar,team_a_win,Canada,2,0,0.7964,0.1375,0.0661,0.7964,Elo 1702 v 1529; Poisson xG 2.56-0.60; 90-minute W/D/L probabilities
+Fable 5,GB3,Group stage,B,Qatar,Switzerland,Qatar,Switzerland,team_b_win,Switzerland,0,2,0.1086,0.1824,0.7090,0.7090,Elo 1529 v 1701; Poisson xG 0.71-2.17; 90-minute W/D/L probabilities
+Fable 5,GB4,Group stage,B,Bosnia & Herzegovina,Canada,Bosnia & Herzegovina,Canada,team_b_win,Canada,0,2,0.0456,0.1089,0.8455,0.8455,Elo 1495 v 1702; Poisson xG 0.54-2.86; 90-minute W/D/L probabilities
+Fable 5,GB5,Group stage,B,Qatar,Bosnia & Herzegovina,Qatar,Bosnia & Herzegovina,team_a_win,Qatar,1,0,0.4312,0.2670,0.3018,0.4312,Elo 1529 v 1495; Poisson xG 1.39-1.11; 90-minute W/D/L probabilities
+Fable 5,GB6,Group stage,B,Switzerland,Canada,Switzerland,Canada,team_b_win,Canada,0,1,0.2716,0.2619,0.4665,0.4665,Elo 1701 v 1702; Poisson xG 1.05-1.47; 90-minute W/D/L probabilities
+Fable 5,GD1,Group stage,D,Paraguay,Australia,Paraguay,Australia,team_b_win,Australia,0,1,0.2272,0.2500,0.5228,0.5228,Elo 1603 v 1681; Poisson xG 0.96-1.60; 90-minute W/D/L probabilities
+Fable 5,GD2,Group stage,D,USA,Türkiye,USA,Türkiye,team_b_win,Türkiye,0,1,0.3332,0.2700,0.3968,0.3968,Elo 1643 v 1710; Poisson xG 1.18-1.31; 90-minute W/D/L probabilities
+Fable 5,GD3,Group stage,D,Türkiye,Australia,Türkiye,Australia,team_a_win,Türkiye,1,0,0.4204,0.2681,0.3115,0.4204,Elo 1710 v 1681; Poisson xG 1.36-1.13; 90-minute W/D/L probabilities
+Fable 5,GD4,Group stage,D,Paraguay,USA,Paraguay,USA,team_b_win,USA,0,1,0.2092,0.2434,0.5474,0.5474,Elo 1603 v 1643; Poisson xG 0.93-1.67; 90-minute W/D/L probabilities
+Fable 5,GD5,Group stage,D,Türkiye,Paraguay,Türkiye,Paraguay,team_a_win,Türkiye,1,0,0.5813,0.2331,0.1856,0.5813,Elo 1710 v 1603; Poisson xG 1.76-0.88; 90-minute W/D/L probabilities
+Fable 5,GD6,Group stage,D,Australia,USA,Australia,USA,team_b_win,USA,0,1,0.3419,0.2705,0.3876,0.3876,Elo 1681 v 1643; Poisson xG 1.20-1.29; 90-minute W/D/L probabilities
+Fable 5,GC1,Group stage,C,Brazil,Scotland,Brazil,Scotland,team_a_win,Brazil,1,0,0.6443,0.2104,0.1453,0.6443,Elo 1721 v 1583; Poisson xG 1.94-0.79; 90-minute W/D/L probabilities
+Fable 5,GC2,Group stage,C,Morocco,Haiti,Morocco,Haiti,team_a_win,Morocco,2,0,0.7779,0.1477,0.0744,0.7779,Elo 1845 v 1634; Poisson xG 2.47-0.63; 90-minute W/D/L probabilities
+Fable 5,GC3,Group stage,C,Haiti,Scotland,Haiti,Scotland,team_a_win,Haiti,1,0,0.4660,0.2620,0.2720,0.4660,Elo 1634 v 1583; Poisson xG 1.47-1.05; 90-minute W/D/L probabilities
+Fable 5,GC4,Group stage,C,Brazil,Morocco,Brazil,Morocco,team_b_win,Morocco,0,1,0.1625,0.2209,0.6166,0.6166,Elo 1721 v 1845; Poisson xG 0.83-1.86; 90-minute W/D/L probabilities
+Fable 5,GC5,Group stage,C,Haiti,Brazil,Haiti,Brazil,team_b_win,Brazil,0,1,0.2137,0.2452,0.5411,0.5411,Elo 1634 v 1721; Poisson xG 0.94-1.65; 90-minute W/D/L probabilities
+Fable 5,GC6,Group stage,C,Scotland,Morocco,Scotland,Morocco,team_b_win,Morocco,0,2,0.0427,0.1044,0.8529,0.8529,Elo 1583 v 1845; Poisson xG 0.53-2.91; 90-minute W/D/L probabilities
+Fable 5,GE1,Group stage,E,Ecuador,Curaçao,Ecuador,Curaçao,team_a_win,Ecuador,1,0,0.5920,0.2296,0.1784,0.5920,Elo 1698 v 1586; Poisson xG 1.79-0.86; 90-minute W/D/L probabilities
+Fable 5,GE2,Group stage,E,Germany,Ivory Coast,Germany,Ivory Coast,team_b_win,Ivory Coast,0,1,0.3255,0.2695,0.4050,0.4050,Elo 1719 v 1740; Poisson xG 1.16-1.33; 90-minute W/D/L probabilities
+Fable 5,GE3,Group stage,E,Ivory Coast,Curaçao,Ivory Coast,Curaçao,team_a_win,Ivory Coast,2,0,0.6757,0.1973,0.1270,0.6757,Elo 1740 v 1586; Poisson xG 2.05-0.75; 90-minute W/D/L probabilities
+Fable 5,GE4,Group stage,E,Ecuador,Germany,Ecuador,Germany,team_b_win,Germany,0,1,0.3240,0.2693,0.4067,0.4067,Elo 1698 v 1719; Poisson xG 1.16-1.33; 90-minute W/D/L probabilities
+Fable 5,GE5,Group stage,E,Ivory Coast,Ecuador,Ivory Coast,Ecuador,team_a_win,Ivory Coast,1,0,0.4484,0.2647,0.2869,0.4484,Elo 1740 v 1698; Poisson xG 1.42-1.08; 90-minute W/D/L probabilities
+Fable 5,GE6,Group stage,E,Curaçao,Germany,Curaçao,Germany,team_b_win,Germany,0,1,0.1508,0.2139,0.6353,0.6353,Elo 1586 v 1719; Poisson xG 0.81-1.92; 90-minute W/D/L probabilities
+Fable 5,GF1,Group stage,F,Netherlands,Sweden,Netherlands,Sweden,team_a_win,Netherlands,1,0,0.6122,0.2225,0.1653,0.6122,Elo 1700 v 1578; Poisson xG 1.85-0.84; 90-minute W/D/L probabilities
+Fable 5,GF2,Group stage,F,Japan,Tunisia,Japan,Tunisia,team_a_win,Japan,2,0,0.6629,0.2028,0.1343,0.6629,Elo 1780 v 1633; Poisson xG 2.01-0.77; 90-minute W/D/L probabilities
+Fable 5,GF3,Group stage,F,Tunisia,Sweden,Tunisia,Sweden,team_a_win,Tunisia,1,0,0.4735,0.2606,0.2659,0.4735,Elo 1633 v 1578; Poisson xG 1.48-1.04; 90-minute W/D/L probabilities
+Fable 5,GF4,Group stage,F,Netherlands,Japan,Netherlands,Japan,team_b_win,Japan,0,1,0.2246,0.2491,0.5263,0.5263,Elo 1700 v 1780; Poisson xG 0.96-1.61; 90-minute W/D/L probabilities
+Fable 5,GF5,Group stage,F,Tunisia,Netherlands,Tunisia,Netherlands,team_b_win,Netherlands,0,1,0.2444,0.2553,0.5003,0.5003,Elo 1633 v 1700; Poisson xG 1.00-1.55; 90-minute W/D/L probabilities
+Fable 5,GF6,Group stage,F,Sweden,Japan,Sweden,Japan,team_b_win,Japan,0,2,0.0817,0.1559,0.7624,0.7624,Elo 1578 v 1780; Poisson xG 0.65-2.39; 90-minute W/D/L probabilities
+Fable 5,GG1,Group stage,G,Spain,Saudi Arabia,Spain,Saudi Arabia,team_a_win,Spain,3,0,0.9008,0.0736,0.0256,0.9008,Elo 1851 v 1548; Poisson xG 3.32-0.46; 90-minute W/D/L probabilities
+Fable 5,GG2,Group stage,G,Cape Verde Islands,Uruguay,Cape Verde Islands,Uruguay,team_b_win,Uruguay,0,1,0.3472,0.2707,0.3821,0.3821,Elo 1650 v 1660; Poisson xG 1.21-1.28; 90-minute W/D/L probabilities
+Fable 5,GG3,Group stage,G,Uruguay,Saudi Arabia,Uruguay,Saudi Arabia,team_a_win,Uruguay,1,0,0.5917,0.2297,0.1786,0.5917,Elo 1660 v 1548; Poisson xG 1.79-0.86; 90-minute W/D/L probabilities
+Fable 5,GG4,Group stage,G,Spain,Cape Verde Islands,Spain,Cape Verde Islands,team_a_win,Spain,2,0,0.7601,0.1571,0.0828,0.7601,Elo 1851 v 1650; Poisson xG 2.38-0.65; 90-minute W/D/L probabilities
+Fable 5,GG5,Group stage,G,Uruguay,Spain,Uruguay,Spain,team_b_win,Spain,0,2,0.0904,0.1651,0.7445,0.7445,Elo 1660 v 1851; Poisson xG 0.67-2.31; 90-minute W/D/L probabilities
+Fable 5,GG6,Group stage,G,Saudi Arabia,Cape Verde Islands,Saudi Arabia,Cape Verde Islands,team_b_win,Cape Verde Islands,0,1,0.1911,0.2357,0.5732,0.5732,Elo 1548 v 1650; Poisson xG 0.89-1.73; 90-minute W/D/L probabilities
+Fable 5,GH1,Group stage,H,Belgium,Iran,Belgium,Iran,team_b_win,Iran,0,1,0.2747,0.2625,0.4628,0.4628,Elo 1698 v 1748; Poisson xG 1.06-1.46; 90-minute W/D/L probabilities
+Fable 5,GH2,Group stage,H,New Zealand,Egypt,New Zealand,Egypt,team_b_win,Egypt,0,2,0.0617,0.1319,0.8064,0.8064,Elo 1532 v 1762; Poisson xG 0.59-2.61; 90-minute W/D/L probabilities
+Fable 5,GH3,Group stage,H,Egypt,Iran,Egypt,Iran,team_a_win,Egypt,1,0,0.3917,0.2703,0.3380,0.3917,Elo 1762 v 1748; Poisson xG 1.30-1.19; 90-minute W/D/L probabilities
+Fable 5,GH4,Group stage,H,Belgium,New Zealand,Belgium,New Zealand,team_a_win,Belgium,2,0,0.6985,0.1872,0.1143,0.6985,Elo 1698 v 1532; Poisson xG 2.13-0.73; 90-minute W/D/L probabilities
+Fable 5,GH5,Group stage,H,Egypt,Belgium,Egypt,Belgium,team_a_win,Egypt,1,0,0.4915,0.2571,0.2514,0.4915,Elo 1762 v 1698; Poisson xG 1.53-1.01; 90-minute W/D/L probabilities
+Fable 5,GH6,Group stage,H,Iran,New Zealand,Iran,New Zealand,team_a_win,Iran,2,0,0.7845,0.1441,0.0714,0.7845,Elo 1748 v 1532; Poisson xG 2.50-0.62; 90-minute W/D/L probabilities
+Fable 5,GI1,Group stage,I,France,Iraq,France,Iraq,team_a_win,France,1,0,0.6523,0.2072,0.1405,0.6523,Elo 1787 v 1645; Poisson xG 1.97-0.78; 90-minute W/D/L probabilities
+Fable 5,GI2,Group stage,I,Norway,Senegal,Norway,Senegal,team_b_win,Senegal,0,1,0.3555,0.2709,0.3736,0.3736,Elo 1721 v 1726; Poisson xG 1.22-1.26; 90-minute W/D/L probabilities
+Fable 5,GI3,Group stage,I,Senegal,Iraq,Senegal,Iraq,team_a_win,Senegal,1,0,0.5289,0.2484,0.2227,0.5289,Elo 1726 v 1645; Poisson xG 1.62-0.95; 90-minute W/D/L probabilities
+Fable 5,GI4,Group stage,I,France,Norway,France,Norway,team_a_win,France,1,0,0.4962,0.2561,0.2477,0.4962,Elo 1787 v 1721; Poisson xG 1.54-1.00; 90-minute W/D/L probabilities
+Fable 5,GI5,Group stage,I,Senegal,France,Senegal,France,team_b_win,France,0,1,0.2553,0.2582,0.4865,0.4865,Elo 1726 v 1787; Poisson xG 1.02-1.51; 90-minute W/D/L probabilities
+Fable 5,GI6,Group stage,I,Iraq,Norway,Iraq,Norway,team_b_win,Norway,0,1,0.2299,0.2509,0.5192,0.5192,Elo 1645 v 1721; Poisson xG 0.97-1.59; 90-minute W/D/L probabilities
+Fable 5,GJ1,Group stage,J,Algeria,Argentina,Algeria,Argentina,team_b_win,Argentina,0,1,0.2888,0.2650,0.4462,0.4462,Elo 1775 v 1816; Poisson xG 1.09-1.42; 90-minute W/D/L probabilities
+Fable 5,GJ2,Group stage,J,Jordan,Austria,Jordan,Austria,team_b_win,Austria,0,1,0.1706,0.2255,0.6039,0.6039,Elo 1578 v 1696; Poisson xG 0.85-1.82; 90-minute W/D/L probabilities
+Fable 5,GJ3,Group stage,J,Austria,Argentina,Austria,Argentina,team_b_win,Argentina,0,1,0.1674,0.2238,0.6088,0.6088,Elo 1696 v 1816; Poisson xG 0.84-1.84; 90-minute W/D/L probabilities
+Fable 5,GJ4,Group stage,J,Algeria,Jordan,Algeria,Jordan,team_a_win,Algeria,2,0,0.7538,0.1604,0.0858,0.7538,Elo 1775 v 1578; Poisson xG 2.35-0.66; 90-minute W/D/L probabilities
+Fable 5,GJ5,Group stage,J,Austria,Algeria,Austria,Algeria,team_b_win,Algeria,0,1,0.2260,0.2496,0.5244,0.5244,Elo 1696 v 1775; Poisson xG 0.96-1.61; 90-minute W/D/L probabilities
+Fable 5,GJ6,Group stage,J,Argentina,Jordan,Argentina,Jordan,team_a_win,Argentina,2,0,0.8194,0.1244,0.0562,0.8194,Elo 1816 v 1578; Poisson xG 2.69-0.57; 90-minute W/D/L probabilities
+Fable 5,GK1,Group stage,K,Congo DR,Portugal,Congo DR,Portugal,team_b_win,Portugal,0,1,0.2714,0.2618,0.4668,0.4668,Elo 1688 v 1739; Poisson xG 1.05-1.47; 90-minute W/D/L probabilities
+Fable 5,GK2,Group stage,K,Uzbekistan,Colombia,Uzbekistan,Colombia,team_b_win,Colombia,0,1,0.2864,0.2646,0.4490,0.4490,Elo 1692 v 1735; Poisson xG 1.08-1.43; 90-minute W/D/L probabilities
+Fable 5,GK3,Group stage,K,Colombia,Portugal,Colombia,Portugal,team_b_win,Portugal,0,1,0.3554,0.2709,0.3737,0.3737,Elo 1735 v 1739; Poisson xG 1.22-1.26; 90-minute W/D/L probabilities
+Fable 5,GK4,Group stage,K,Congo DR,Uzbekistan,Congo DR,Uzbekistan,team_b_win,Uzbekistan,0,1,0.3569,0.2709,0.3722,0.3722,Elo 1688 v 1692; Poisson xG 1.23-1.26; 90-minute W/D/L probabilities
+Fable 5,GK5,Group stage,K,Colombia,Congo DR,Colombia,Congo DR,team_a_win,Colombia,1,0,0.4570,0.2634,0.2796,0.4570,Elo 1735 v 1688; Poisson xG 1.44-1.07; 90-minute W/D/L probabilities
+Fable 5,GK6,Group stage,K,Portugal,Uzbekistan,Portugal,Uzbekistan,team_a_win,Portugal,1,0,0.4587,0.2632,0.2781,0.4587,Elo 1739 v 1692; Poisson xG 1.45-1.07; 90-minute W/D/L probabilities
+Fable 5,GL1,Group stage,L,Croatia,England,Croatia,England,team_b_win,England,0,1,0.2333,0.2519,0.5148,0.5148,Elo 1666 v 1741; Poisson xG 0.98-1.58; 90-minute W/D/L probabilities
+Fable 5,GL2,Group stage,L,Panama,Ghana,Panama,Ghana,team_a_win,Panama,1,0,0.6067,0.2245,0.1688,0.6067,Elo 1654 v 1534; Poisson xG 1.83-0.84; 90-minute W/D/L probabilities
+Fable 5,GL3,Group stage,L,Ghana,England,Ghana,England,team_b_win,England,0,2,0.0784,0.1522,0.7694,0.7694,Elo 1534 v 1741; Poisson xG 0.64-2.43; 90-minute W/D/L probabilities
+Fable 5,GL4,Group stage,L,Croatia,Panama,Croatia,Panama,team_a_win,Croatia,1,0,0.3889,0.2704,0.3407,0.3889,Elo 1666 v 1654; Poisson xG 1.29-1.19; 90-minute W/D/L probabilities
+Fable 5,GL5,Group stage,L,Ghana,Croatia,Ghana,Croatia,team_b_win,Croatia,0,1,0.1529,0.2152,0.6319,0.6319,Elo 1534 v 1666; Poisson xG 0.81-1.91; 90-minute W/D/L probabilities
+Fable 5,GL6,Group stage,L,England,Panama,England,Panama,team_a_win,England,1,0,0.5407,0.2453,0.2140,0.5407,Elo 1741 v 1654; Poisson xG 1.65-0.94; 90-minute W/D/L probabilities
+Fable 5,73,Round of 32,,2A,2B,South Korea,Switzerland,team_b_win,Switzerland,0,1,0.4855,0.0000,0.5145,0.5145,Canonical fixture South Korea v Switzerland; advance prob incl. ET/pens (draw folded in); Elo 1694 v 1701
+Fable 5,74,Round of 32,,Ivory Coast,Australia,Ivory Coast,Australia,team_a_win,Ivory Coast,1,0,0.6265,0.0000,0.3735,0.6265,Canonical fixture (public/data/results.csv) Ivory Coast v Australia; advance prob incl. ET/pens; Elo 1740 v 1681
+Fable 5,75,Round of 32,,1F,2C,Japan,Brazil,team_a_win,Japan,1,0,0.6274,0.0000,0.3726,0.6274,Canonical fixture Japan v Brazil; advance prob incl. ET/pens (draw folded in); Elo 1780 v 1721
+Fable 5,76,Round of 32,,1C,2F,Morocco,Netherlands,team_a_win,Morocco,1,0,0.7885,0.0000,0.2115,0.7885,Canonical fixture Morocco v Netherlands; advance prob incl. ET/pens (draw folded in); Elo 1845 v 1700
+Fable 5,77,Round of 32,,1I,3CDFGH,France,Uruguay,team_a_win,France,1,0,0.7587,0.0000,0.2413,0.7587,Canonical fixture France v Uruguay; advance prob incl. ET/pens (draw folded in); Elo 1787 v 1660
+Fable 5,78,Round of 32,,2E,2I,Germany,Norway,team_b_win,Norway,0,1,0.4957,0.0000,0.5043,0.5043,Canonical fixture Germany v Norway; advance prob incl. ET/pens (draw folded in); Elo 1719 v 1721
+Fable 5,79,Round of 32,,1A,3CEFHI,Mexico,Senegal,team_a_win,Mexico,1,0,0.5396,0.0000,0.4604,0.5396,Canonical fixture Mexico v Senegal; advance prob incl. ET/pens (draw folded in); Elo 1695 v 1726
+Fable 5,80,Round of 32,,England,DR Congo,England,DR Congo,team_a_win,England,1,0,0.6128,0.0000,0.3872,0.6128,Canonical fixture (public/data/results.csv) England v DR Congo; advance prob incl. ET/pens; Elo 1741 v 1688
+Fable 5,81,Round of 32,,1D,3BEFIJ,Türkiye,Austria,team_a_win,Türkiye,1,0,0.5296,0.0000,0.4704,0.5296,Canonical fixture Türkiye v Austria; advance prob incl. ET/pens (draw folded in); Elo 1710 v 1696
+Fable 5,82,Round of 32,,Egypt,Ecuador,Egypt,Ecuador,team_a_win,Egypt,1,0,0.6369,0.0000,0.3631,0.6369,Canonical fixture (public/data/results.csv) Egypt v Ecuador; advance prob incl. ET/pens; Elo 1762 v 1698
+Fable 5,83,Round of 32,,Colombia,Croatia,Colombia,Croatia,team_a_win,Colombia,1,0,0.6468,0.0000,0.3532,0.6468,Canonical fixture (public/data/results.csv) Colombia v Croatia; advance prob incl. ET/pens; Elo 1735 v 1666
+Fable 5,84,Round of 32,,Spain,Algeria,Spain,Algeria,team_a_win,Spain,1,0,0.6616,0.0000,0.3384,0.6616,Canonical fixture (public/data/results.csv) Spain v Algeria; advance prob incl. ET/pens; Elo 1851 v 1775
+Fable 5,85,Round of 32,,Canada,Belgium,Canada,Belgium,team_a_win,Canada,1,0,0.6153,0.0000,0.3847,0.6153,Canonical fixture (public/data/results.csv) Canada v Belgium; advance prob incl. ET/pens; Elo 1702 v 1698
+Fable 5,86,Round of 32,,Argentina,Cape Verde,Argentina,Cape Verde,team_a_win,Argentina,2,0,0.8211,0.0000,0.1789,0.8211,Canonical fixture (public/data/results.csv) Argentina v Cape Verde; advance prob incl. ET/pens; Elo 1816 v 1650
+Fable 5,87,Round of 32,,Portugal,Panama,Portugal,Panama,team_a_win,Portugal,1,0,0.6815,0.0000,0.3185,0.6815,Canonical fixture (public/data/results.csv) Portugal v Panama; advance prob incl. ET/pens; Elo 1739 v 1654
+Fable 5,88,Round of 32,,United States,Iran,United States,Iran,team_b_win,Iran,0,1,0.3822,0.0000,0.6178,0.6178,Canonical fixture (public/data/results.csv) United States v Iran; advance prob incl. ET/pens; Elo 1643 v 1748
+Fable 5,89,Round of 16,,Switzerland,Japan,Switzerland,Japan,team_b_win,Japan,0,1,0.3314,0.0000,0.6686,0.6686,Canonical fixture (public/data/results.csv) Switzerland v Japan; advance prob incl. ET/pens; Elo 1701 v 1780
+Fable 5,90,Round of 16,,Ivory Coast,France,Ivory Coast,France,team_b_win,France,0,1,0.3988,0.0000,0.6012,0.6012,Canonical fixture (public/data/results.csv) Ivory Coast v France; advance prob incl. ET/pens; Elo 1740 v 1787
+Fable 5,91,Round of 16,,Morocco,Norway,Morocco,Norway,team_a_win,Morocco,1,0,0.7526,0.0000,0.2474,0.7526,Canonical fixture (public/data/results.csv) Morocco v Norway; advance prob incl. ET/pens; Elo 1845 v 1721
+Fable 5,92,Round of 16,,Mexico,England,Mexico,England,team_a_win,Mexico,1,0,0.5078,0.0000,0.4922,0.5078,Canonical fixture (public/data/results.csv) Mexico v England; advance prob incl. ET/pens; Elo 1695 v 1741
+Fable 5,93,Round of 16,,Colombia,Spain,Colombia,Spain,team_b_win,Spain,0,1,0.2607,0.0000,0.7393,0.7393,Canonical fixture (public/data/results.csv) Colombia v Spain; advance prob incl. ET/pens; Elo 1735 v 1851
+Fable 5,94,Round of 16,,Türkiye,Egypt,Türkiye,Egypt,team_b_win,Egypt,0,1,0.3877,0.0000,0.6123,0.6123,Canonical fixture (public/data/results.csv) Türkiye v Egypt; advance prob incl. ET/pens; Elo 1710 v 1762
+Fable 5,95,Round of 16,,Argentina,Iran,Argentina,Iran,team_a_win,Argentina,1,0,0.6467,0.0000,0.3533,0.6467,Canonical fixture (public/data/results.csv) Argentina v Iran; advance prob incl. ET/pens; Elo 1816 v 1748
+Fable 5,96,Round of 16,,Canada,Portugal,Canada,Portugal,team_a_win,Canada,1,0,0.5271,0.0000,0.4729,0.5271,Canonical fixture (public/data/results.csv) Canada v Portugal; advance prob incl. ET/pens; Elo 1702 v 1739
+Fable 5,97,Quarter-final,,Japan,France,Japan,France,team_b_win,France,0,1,0.4857,0.0000,0.5143,0.5143,Canonical fixture (public/data/results.csv) Japan v France; advance prob incl. ET/pens; Elo 1780 v 1787
+Fable 5,98,Quarter-final,,Spain,Egypt,Spain,Egypt,team_a_win,Spain,1,0,0.6886,0.0000,0.3114,0.6886,Canonical fixture (public/data/results.csv) Spain v Egypt; advance prob incl. ET/pens; Elo 1851 v 1762
+Fable 5,99,Quarter-final,,Morocco,England,Morocco,England,team_a_win,Morocco,1,0,0.7174,0.0000,0.2826,0.7174,Canonical fixture (public/data/results.csv) Morocco v England; advance prob incl. ET/pens; Elo 1845 v 1741
+Fable 5,100,Quarter-final,,Argentina,Portugal,Argentina,Portugal,team_a_win,Argentina,1,0,0.6634,0.0000,0.3366,0.6634,Canonical fixture (public/data/results.csv) Argentina v Portugal; advance prob incl. ET/pens; Elo 1816 v 1739
+Fable 5,101,Semi-final,,France,Spain,France,Spain,team_b_win,Spain,0,1,0.3621,0.0000,0.6379,0.6379,Canonical fixture (public/data/results.csv) France v Spain; advance prob incl. ET/pens; Elo 1787 v 1851
+Fable 5,102,Semi-final,,Morocco,Argentina,Morocco,Argentina,team_a_win,Morocco,1,0,0.5627,0.0000,0.4373,0.5627,Canonical fixture (public/data/results.csv) Morocco v Argentina; advance prob incl. ET/pens; Elo 1845 v 1816
+Fable 5,103,Third-place match,,L101,L102,L101,L102,team_b_win,L102,0,1,0.4358,0.0000,0.5642,0.5642,"Slots resolved by model: L101=France, L102=Argentina; advance prob incl. ET/pens (draw folded in); Elo 1787 v 1816"
+Fable 5,104,Final,,W101,W102,Morocco,Spain,team_b_win,Spain,0,1,0.4869,0.0000,0.5131,0.5131,Canonical fixture Morocco v Spain; advance prob incl. ET/pens (draw folded in); Elo 1845 v 1851

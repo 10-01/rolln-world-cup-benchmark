@@ -1,0 +1,55 @@
+[
+  {
+    "key": "fable-5-high",
+    "name": "Fable 5",
+    "effort": "high effort",
+    "label": "Fable 5 (high effort)",
+    "sourceFile": "predictions/fable_wc2026_predictions.csv",
+    "sourceHints": [
+      "fable",
+      "claude fable"
+    ]
+  },
+  {
+    "key": "gemini-3-1-pro-medium",
+    "name": "Gemini 3.1 Pro",
+    "effort": "medium",
+    "label": "Gemini 3.1 Pro (medium)",
+    "sourceFile": "predictions/world_cup_2026_predictions_gemini.csv",
+    "sourceHints": [
+      "gemini"
+    ]
+  },
+  {
+    "key": "gpt-5-5-xhigh",
+    "name": "gpt-5.5",
+    "effort": "xhigh",
+    "label": "gpt-5.5 (xhigh)",
+    "sourceFile": "predictions/wc2026_predictions_gpt.csv",
+    "sourceHints": [
+      "gpt",
+      "gpt-5"
+    ]
+  },
+  {
+    "key": "grok-build-0-1",
+    "name": "grok-build-0.1",
+    "effort": "",
+    "label": "grok-build-0.1",
+    "sourceFile": "predictions/world_cup_2026_predictions_grok.csv",
+    "sourceHints": [
+      "grok",
+      "xai"
+    ]
+  },
+  {
+    "key": "composer-2-5-high",
+    "name": "Composer 2.5",
+    "effort": "high",
+    "label": "Composer 2.5 (high)",
+    "sourceFile": "predictions/wc2026_predictions_composer.csv",
+    "sourceHints": [
+      "composer"
+    ]
+  }
+]

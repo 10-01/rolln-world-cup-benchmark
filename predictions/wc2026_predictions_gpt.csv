@@ -1,0 +1,105 @@
+record_type,match_id,phase,round,group,slot_team_a,slot_team_b,model_team_a,model_team_b,predicted_score,predicted_winner,team_a_win_prob,draw_prob,team_b_win_prob,likelihood,model_name,notes
+match,GA1,Group stage,Group stage,A,A1,A2,Mexico,South Africa,1-0,Mexico,0.5607,0.1884,0.2509,0.5607,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GA2,Group stage,Group stage,A,A3,A4,South Korea,Czechia,1-0,South Korea,0.4938,0.2047,0.3015,0.4938,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GA3,Group stage,Group stage,A,A4,A2,Czechia,South Africa,0-1,South Africa,0.3742,0.2301,0.3957,0.3957,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GA4,Group stage,Group stage,A,A1,A3,Mexico,South Korea,1-0,Mexico,0.4655,0.2118,0.3227,0.4655,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GA5,Group stage,Group stage,A,A4,A1,Czechia,Mexico,0-1,Mexico,0.2422,0.1856,0.5722,0.5722,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GA6,Group stage,Group stage,A,A2,A3,South Africa,South Korea,0-1,South Korea,0.3108,0.2078,0.4814,0.4814,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GB1,Group stage,Group stage,B,B1,B2,Canada,Bosnia and Herzegovina,2-0,Canada,0.684,0.1579,0.1581,0.684,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GB2,Group stage,Group stage,B,B3,B4,Qatar,Switzerland,0-1,Switzerland,0.1685,0.1615,0.67,0.67,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GB3,Group stage,Group stage,B,B4,B2,Switzerland,Bosnia and Herzegovina,1-0,Switzerland,0.6603,0.164,0.1757,0.6603,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GB4,Group stage,Group stage,B,B1,B3,Canada,Qatar,2-0,Canada,0.6931,0.1555,0.1514,0.6931,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GB5,Group stage,Group stage,B,B4,B1,Switzerland,Canada,0-1,Canada,0.3603,0.2249,0.4148,0.4148,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GB6,Group stage,Group stage,B,B2,B3,Bosnia and Herzegovina,Qatar,1-0,Bosnia and Herzegovina,0.3958,0.2301,0.3741,0.3958,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GC1,Group stage,Group stage,C,C1,C2,Brazil,Morocco,0-1,Morocco,0.2501,0.1882,0.5617,0.5617,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GC2,Group stage,Group stage,C,C3,C4,Haiti,Scotland,1-0,Haiti,0.4424,0.2177,0.3399,0.4424,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GC3,Group stage,Group stage,C,C4,C2,Scotland,Morocco,0-2,Morocco,0.1412,0.1519,0.7069,0.7069,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GC4,Group stage,Group stage,C,C1,C3,Brazil,Haiti,1-0,Brazil,0.5036,0.2023,0.2941,0.5036,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GC5,Group stage,Group stage,C,C4,C1,Scotland,Brazil,0-1,Brazil,0.2513,0.1885,0.5601,0.5601,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GC6,Group stage,Group stage,C,C2,C3,Morocco,Haiti,1-0,Morocco,0.6643,0.163,0.1727,0.6643,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GD1,Group stage,Group stage,D,D1,D2,United States,Paraguay,1-0,United States,0.5214,0.1979,0.2806,0.5214,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GD2,Group stage,Group stage,D,D3,D4,Australia,Türkiye,0-1,Türkiye,0.3144,0.209,0.4767,0.4767,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GD3,Group stage,Group stage,D,D4,D2,Türkiye,Paraguay,1-0,Türkiye,0.577,0.1845,0.2386,0.577,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GD4,Group stage,Group stage,D,D1,D3,United States,Australia,1-0,United States,0.4174,0.2242,0.3583,0.4174,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GD5,Group stage,Group stage,D,D4,D1,Türkiye,United States,1-0,Türkiye,0.4424,0.2177,0.3399,0.4424,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GD6,Group stage,Group stage,D,D2,D3,Paraguay,Australia,0-1,Australia,0.3059,0.2062,0.4879,0.4879,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GE1,Group stage,Group stage,E,E1,E2,Germany,Curaçao,1-0,Germany,0.5865,0.1822,0.2313,0.5865,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GE2,Group stage,Group stage,E,E3,E4,Ivory Coast,Ecuador,1-0,Ivory Coast,0.4729,0.2099,0.3172,0.4729,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GE3,Group stage,Group stage,E,E4,E2,Ecuador,Curaçao,1-0,Ecuador,0.528,0.1963,0.2756,0.528,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GE4,Group stage,Group stage,E,E1,E3,Germany,Ivory Coast,0-1,Ivory Coast,0.3639,0.2263,0.4099,0.4099,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GE5,Group stage,Group stage,E,E4,E1,Ecuador,Germany,0-1,Germany,0.3371,0.2167,0.4462,0.4462,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GE6,Group stage,Group stage,E,E2,E3,Curaçao,Ivory Coast,0-1,Ivory Coast,0.2136,0.1764,0.61,0.61,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GF1,Group stage,Group stage,F,F1,F2,Netherlands,Japan,0-1,Japan,0.3134,0.2087,0.4779,0.4779,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GF2,Group stage,Group stage,F,F3,F4,Sweden,Tunisia,0-1,Tunisia,0.3063,0.2063,0.4874,0.4874,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GF3,Group stage,Group stage,F,F4,F2,Tunisia,Japan,0-1,Japan,0.2107,0.1755,0.6137,0.6137,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GF4,Group stage,Group stage,F,F1,F3,Netherlands,Sweden,1-0,Netherlands,0.6219,0.1735,0.2046,0.6219,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GF5,Group stage,Group stage,F,F4,F1,Tunisia,Netherlands,0-1,Netherlands,0.2761,0.1965,0.5274,0.5274,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GF6,Group stage,Group stage,F,F2,F3,Japan,Sweden,2-0,Japan,0.695,0.155,0.15,0.695,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GG1,Group stage,Group stage,G,G1,G2,Belgium,Egypt,0-1,Egypt,0.3402,0.2178,0.442,0.442,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GG2,Group stage,Group stage,G,G3,G4,Iran,New Zealand,2-0,Iran,0.7171,0.1491,0.1338,0.7171,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GG3,Group stage,Group stage,G,G4,G2,New Zealand,Egypt,0-2,Egypt,0.1278,0.1469,0.7253,0.7253,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GG4,Group stage,Group stage,G,G1,G3,Belgium,Iran,0-1,Iran,0.3497,0.2211,0.4291,0.4291,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GG5,Group stage,Group stage,G,G4,G1,New Zealand,Belgium,0-2,Belgium,0.1569,0.1575,0.6855,0.6855,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GG6,Group stage,Group stage,G,G2,G3,Egypt,Iran,1-0,Egypt,0.396,0.23,0.374,0.396,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GH1,Group stage,Group stage,H,H1,H2,Spain,Cape Verde,1-0,Spain,0.6409,0.1688,0.1902,0.6409,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GH2,Group stage,Group stage,H,H3,H4,Saudi Arabia,Uruguay,0-1,Uruguay,0.2495,0.1879,0.5626,0.5626,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GH3,Group stage,Group stage,H,H4,H2,Uruguay,Cape Verde,0-1,Cape Verde,0.3672,0.2275,0.4053,0.4053,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GH4,Group stage,Group stage,H,H1,H3,Spain,Saudi Arabia,2-0,Spain,0.7753,0.1323,0.0924,0.7753,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GH5,Group stage,Group stage,H,H4,H1,Uruguay,Spain,0-1,Spain,0.177,0.1644,0.6585,0.6585,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GH6,Group stage,Group stage,H,H2,H3,Cape Verde,Saudi Arabia,1-0,Cape Verde,0.5829,0.183,0.2341,0.5829,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GI1,Group stage,Group stage,I,I1,I2,France,Senegal,1-0,France,0.4739,0.2097,0.3164,0.4739,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GI2,Group stage,Group stage,I,I3,I4,Iraq,Norway,0-1,Norway,0.29,0.201,0.5091,0.5091,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GI3,Group stage,Group stage,I,I4,I2,Norway,Senegal,1-0,Norway,0.3893,0.2319,0.3788,0.3893,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GI4,Group stage,Group stage,I,I1,I3,France,Iraq,1-0,France,0.5884,0.1817,0.2299,0.5884,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GI5,Group stage,Group stage,I,I4,I1,Norway,France,0-1,France,0.321,0.2112,0.4678,0.4678,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GI6,Group stage,Group stage,I,I2,I3,Senegal,Iraq,1-0,Senegal,0.5031,0.2024,0.2945,0.5031,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GJ1,Group stage,Group stage,J,J1,J2,Argentina,Algeria,1-0,Argentina,0.4363,0.2193,0.3444,0.4363,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GJ2,Group stage,Group stage,J,J3,J4,Austria,Jordan,1-0,Austria,0.6129,0.1757,0.2113,0.6129,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GJ3,Group stage,Group stage,J,J4,J2,Jordan,Algeria,0-2,Algeria,0.1515,0.1556,0.6929,0.6929,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GJ4,Group stage,Group stage,J,J1,J3,Argentina,Austria,1-0,Argentina,0.537,0.1941,0.2688,0.537,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GJ5,Group stage,Group stage,J,J4,J1,Jordan,Argentina,0-2,Argentina,0.1257,0.1461,0.7283,0.7283,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GJ6,Group stage,Group stage,J,J2,J3,Algeria,Austria,1-0,Algeria,0.4854,0.2068,0.3078,0.4854,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GK1,Group stage,Group stage,K,K1,K2,Portugal,DR Congo,1-0,Portugal,0.4622,0.2126,0.3252,0.4622,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GK2,Group stage,Group stage,K,K3,K4,Uzbekistan,Colombia,0-1,Colombia,0.3195,0.2107,0.4698,0.4698,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GK3,Group stage,Group stage,K,K4,K2,Colombia,DR Congo,1-0,Colombia,0.4455,0.2169,0.3376,0.4455,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GK4,Group stage,Group stage,K,K1,K3,Portugal,Uzbekistan,1-0,Portugal,0.4864,0.2066,0.3071,0.4864,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GK5,Group stage,Group stage,K,K4,K1,Colombia,Portugal,0-1,Portugal,0.3712,0.229,0.3999,0.3999,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GK6,Group stage,Group stage,K,K2,K3,DR Congo,Uzbekistan,1-0,DR Congo,0.4074,0.2269,0.3656,0.4074,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GL1,Group stage,Group stage,L,L1,L2,England,Croatia,1-0,England,0.4985,0.2036,0.298,0.4985,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GL2,Group stage,Group stage,L,L3,L4,Ghana,Panama,0-1,Panama,0.2399,0.1849,0.5752,0.5752,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GL3,Group stage,Group stage,L,L4,L2,Panama,Croatia,0-1,Croatia,0.3557,0.2233,0.421,0.421,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GL4,Group stage,Group stage,L,L1,L3,England,Ghana,2-0,England,0.6988,0.154,0.1472,0.6988,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GL5,Group stage,Group stage,L,L4,L1,Panama,England,0-1,England,0.2703,0.1946,0.5351,0.5351,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,GL6,Group stage,Group stage,L,L2,L3,Croatia,Ghana,1-0,Croatia,0.6087,0.1768,0.2145,0.6087,gpt-5-codex-elo-form-poisson-v3,Regulation-time projection from Elo + recent form.
+match,73,Knockout,Round of 32,,2A,2B,South Korea,Switzerland,0-1,Switzerland,0.358,0.2241,0.4179,0.5369,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,74,Knockout,Round of 32,,1E,3D,Ivory Coast,Australia,1-0,Ivory Coast,0.5153,0.1994,0.2852,0.6382,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,75,Knockout,Round of 32,,1F,2C,Japan,Brazil,1-0,Japan,0.4724,0.2101,0.3176,0.594,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,76,Knockout,Round of 32,,1C,2F,Morocco,Netherlands,1-0,Morocco,0.5668,0.1869,0.2463,0.6903,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,77,Knockout,Round of 32,,1I,3H,France,Uruguay,1-0,France,0.5892,0.1815,0.2293,0.7126,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,78,Knockout,Round of 32,,2E,2I,Germany,Norway,0-1,Norway,0.3814,0.2329,0.3858,0.5027,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,79,Knockout,Round of 32,,1A,3I,Mexico,Senegal,1-0,Mexico,0.3962,0.23,0.3738,0.5138,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,80,Knockout,Round of 32,,1L,3K,England,DR Congo,1-0,England,0.4637,0.2123,0.3241,0.5849,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,81,Knockout,Round of 32,,1D,3J,Türkiye,Austria,1-0,Türkiye,0.4006,0.2288,0.3706,0.5186,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,82,Knockout,Round of 32,,1G,3E,Egypt,Ecuador,1-0,Egypt,0.4779,0.2087,0.3134,0.5997,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,83,Knockout,Round of 32,,2K,2L,Colombia,Croatia,1-0,Colombia,0.4805,0.208,0.3114,0.6024,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,84,Knockout,Round of 32,,1H,2J,Spain,Algeria,1-0,Spain,0.4812,0.2078,0.3109,0.6031,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,85,Knockout,Round of 32,,1B,3G,Canada,Belgium,1-0,Canada,0.4037,0.2279,0.3684,0.5218,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,86,Knockout,Round of 32,,1J,2H,Argentina,Cape Verde,1-0,Argentina,0.6032,0.1781,0.2187,0.7265,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,87,Knockout,Round of 32,,1K,3L,Portugal,Panama,1-0,Portugal,0.5337,0.1949,0.2713,0.657,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,88,Knockout,Round of 32,,2D,2G,United States,Iran,0-1,Iran,0.3164,0.2097,0.4739,0.5956,gpt-5-codex-elo-form-poisson-v3,FIFA R32 bracket; third-place slot resolved from projected qualifiers.
+match,89,Knockout,Round of 16,,W73,W75,Switzerland,Japan,0-1,Japan,0.3035,0.2054,0.4911,0.6134,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,90,Knockout,Round of 16,,W74,W77,Ivory Coast,France,0-1,France,0.339,0.2174,0.4437,0.564,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,91,Knockout,Round of 16,,W76,W78,Morocco,Norway,1-0,Morocco,0.5414,0.1931,0.2655,0.6647,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,92,Knockout,Round of 16,,W79,W80,Mexico,England,0-1,England,0.3702,0.2286,0.4012,0.5192,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,93,Knockout,Round of 16,,W83,W84,Colombia,Spain,0-1,Spain,0.2648,0.1929,0.5423,0.6656,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,94,Knockout,Round of 16,,W81,W82,Türkiye,Egypt,0-1,Egypt,0.3509,0.2216,0.4276,0.5471,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,95,Knockout,Round of 16,,W86,W88,Argentina,Iran,1-0,Argentina,0.4894,0.2058,0.3048,0.6116,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,96,Knockout,Round of 16,,W85,W87,Canada,Portugal,0-1,Portugal,0.3597,0.2247,0.4156,0.5345,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,97,Knockout,Quarter-final,,W89,W90,Japan,France,0-1,France,0.3709,0.2289,0.4003,0.5182,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,98,Knockout,Quarter-final,,W93,W94,Spain,Egypt,1-0,Spain,0.5208,0.1981,0.2811,0.6438,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,99,Knockout,Quarter-final,,W91,W92,Morocco,England,1-0,Morocco,0.5175,0.1989,0.2836,0.6404,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,100,Knockout,Quarter-final,,W95,W96,Argentina,Portugal,1-0,Argentina,0.4824,0.2076,0.3101,0.6043,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,101,Knockout,Semi-final,,W97,W98,France,Spain,0-1,Spain,0.3221,0.2116,0.4663,0.5877,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,102,Knockout,Semi-final,,W99,W100,Morocco,Argentina,1-0,Morocco,0.4204,0.2235,0.3562,0.5395,gpt-5-codex-elo-form-poisson-v3,Winner of earlier knockout matches.
+match,103,Knockout,Third-place match,,L101,L102,France,Argentina,0-1,Argentina,0.3555,0.2232,0.4213,0.5405,gpt-5-codex-elo-form-poisson-v3,Semifinal losers.
+match,104,Knockout,Final,,W101,W102,Spain,Morocco,1-0,Spain,0.3909,0.2314,0.3776,0.5082,gpt-5-codex-elo-form-poisson-v3,Tournament final.

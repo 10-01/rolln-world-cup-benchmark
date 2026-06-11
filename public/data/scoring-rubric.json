@@ -1,0 +1,28 @@
+{
+  "version": "2026-06-11",
+  "primaryScore": "Bench Points",
+  "perCompletedMatch": [
+    {
+      "component": "Result or winner",
+      "points": "0 or 10",
+      "rule": "10 points when the model picked the actual W/D/L result for group-stage matches or the actual advancing/winning team for knockout matches."
+    },
+    {
+      "component": "Confidence adjustment",
+      "points": "-5 to +5",
+      "rule": "Correct picks receive +5 x the confidence assigned to that pick. Wrong picks receive -5 x the confidence assigned to that pick. Missing confidence is neutral."
+    },
+    {
+      "component": "Scoreline",
+      "points": "0 to 5",
+      "rule": "5 points for exact score. Otherwise 2 for exact goal differential, 1 for total goals within one, and 1 for the correct result implied by the score. Scoreline is graded only when the predicted matchup matches the actual fixture teams."
+    }
+  ],
+  "secondaryMetrics": [
+    "Accuracy: correct result or winner divided by completed predictions.",
+    "Brier score: mean squared error over home/draw/away probabilities; lower is better.",
+    "Log loss: negative log probability assigned to the actual result, clipped at 0.02; lower is better.",
+    "Exact scores: count of exact scoreline hits among score-graded predictions."
+  ],
+  "confidencePolicy": "Full 1X2 distributions are used when present. Single-class likelihoods are preserved as the model's confidence and imputed into 1X2 probabilities only for Brier/log-loss visibility, with the remaining probability split between the other two outcomes."
+}

@@ -1,0 +1,938 @@
+[
+  {
+    "matchId": "GA1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "A",
+    "teamA": "Mexico",
+    "teamB": "South Africa",
+    "sortOrder": 1010
+  },
+  {
+    "matchId": "GA2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "A",
+    "teamA": "South Korea",
+    "teamB": "Czechia",
+    "sortOrder": 1011
+  },
+  {
+    "matchId": "GA3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "A",
+    "teamA": "Czechia",
+    "teamB": "South Africa",
+    "sortOrder": 1012
+  },
+  {
+    "matchId": "GA4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "A",
+    "teamA": "Mexico",
+    "teamB": "South Korea",
+    "sortOrder": 1013
+  },
+  {
+    "matchId": "GA5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "A",
+    "teamA": "Czechia",
+    "teamB": "Mexico",
+    "sortOrder": 1014
+  },
+  {
+    "matchId": "GA6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "A",
+    "teamA": "South Africa",
+    "teamB": "South Korea",
+    "sortOrder": 1015
+  },
+  {
+    "matchId": "GB1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "B",
+    "teamA": "Canada",
+    "teamB": "Bosnia and Herzegovina",
+    "sortOrder": 1026
+  },
+  {
+    "matchId": "GB2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "B",
+    "teamA": "Qatar",
+    "teamB": "Switzerland",
+    "sortOrder": 1027
+  },
+  {
+    "matchId": "GB3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "B",
+    "teamA": "Switzerland",
+    "teamB": "Bosnia and Herzegovina",
+    "sortOrder": 1028
+  },
+  {
+    "matchId": "GB4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "B",
+    "teamA": "Canada",
+    "teamB": "Qatar",
+    "sortOrder": 1029
+  },
+  {
+    "matchId": "GB5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "B",
+    "teamA": "Switzerland",
+    "teamB": "Canada",
+    "sortOrder": 1030
+  },
+  {
+    "matchId": "GB6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "B",
+    "teamA": "Bosnia and Herzegovina",
+    "teamB": "Qatar",
+    "sortOrder": 1031
+  },
+  {
+    "matchId": "GC1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "C",
+    "teamA": "Brazil",
+    "teamB": "Morocco",
+    "sortOrder": 1042
+  },
+  {
+    "matchId": "GC2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "C",
+    "teamA": "Haiti",
+    "teamB": "Scotland",
+    "sortOrder": 1043
+  },
+  {
+    "matchId": "GC3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "C",
+    "teamA": "Scotland",
+    "teamB": "Morocco",
+    "sortOrder": 1044
+  },
+  {
+    "matchId": "GC4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "C",
+    "teamA": "Brazil",
+    "teamB": "Haiti",
+    "sortOrder": 1045
+  },
+  {
+    "matchId": "GC5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "C",
+    "teamA": "Scotland",
+    "teamB": "Brazil",
+    "sortOrder": 1046
+  },
+  {
+    "matchId": "GC6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "C",
+    "teamA": "Morocco",
+    "teamB": "Haiti",
+    "sortOrder": 1047
+  },
+  {
+    "matchId": "GD1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "D",
+    "teamA": "United States",
+    "teamB": "Paraguay",
+    "sortOrder": 1058
+  },
+  {
+    "matchId": "GD2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "D",
+    "teamA": "Australia",
+    "teamB": "Türkiye",
+    "sortOrder": 1059
+  },
+  {
+    "matchId": "GD3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "D",
+    "teamA": "Türkiye",
+    "teamB": "Paraguay",
+    "sortOrder": 1060
+  },
+  {
+    "matchId": "GD4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "D",
+    "teamA": "United States",
+    "teamB": "Australia",
+    "sortOrder": 1061
+  },
+  {
+    "matchId": "GD5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "D",
+    "teamA": "Türkiye",
+    "teamB": "United States",
+    "sortOrder": 1062
+  },
+  {
+    "matchId": "GD6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "D",
+    "teamA": "Paraguay",
+    "teamB": "Australia",
+    "sortOrder": 1063
+  },
+  {
+    "matchId": "GE1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "E",
+    "teamA": "Germany",
+    "teamB": "Curaçao",
+    "sortOrder": 1074
+  },
+  {
+    "matchId": "GE2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "E",
+    "teamA": "Ivory Coast",
+    "teamB": "Ecuador",
+    "sortOrder": 1075
+  },
+  {
+    "matchId": "GE3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "E",
+    "teamA": "Ecuador",
+    "teamB": "Curaçao",
+    "sortOrder": 1076
+  },
+  {
+    "matchId": "GE4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "E",
+    "teamA": "Germany",
+    "teamB": "Ivory Coast",
+    "sortOrder": 1077
+  },
+  {
+    "matchId": "GE5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "E",
+    "teamA": "Ecuador",
+    "teamB": "Germany",
+    "sortOrder": 1078
+  },
+  {
+    "matchId": "GE6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "E",
+    "teamA": "Curaçao",
+    "teamB": "Ivory Coast",
+    "sortOrder": 1079
+  },
+  {
+    "matchId": "GF1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "F",
+    "teamA": "Netherlands",
+    "teamB": "Japan",
+    "sortOrder": 1090
+  },
+  {
+    "matchId": "GF2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "F",
+    "teamA": "Sweden",
+    "teamB": "Tunisia",
+    "sortOrder": 1091
+  },
+  {
+    "matchId": "GF3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "F",
+    "teamA": "Tunisia",
+    "teamB": "Japan",
+    "sortOrder": 1092
+  },
+  {
+    "matchId": "GF4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "F",
+    "teamA": "Netherlands",
+    "teamB": "Sweden",
+    "sortOrder": 1093
+  },
+  {
+    "matchId": "GF5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "F",
+    "teamA": "Tunisia",
+    "teamB": "Netherlands",
+    "sortOrder": 1094
+  },
+  {
+    "matchId": "GF6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "F",
+    "teamA": "Japan",
+    "teamB": "Sweden",
+    "sortOrder": 1095
+  },
+  {
+    "matchId": "GG1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "G",
+    "teamA": "Belgium",
+    "teamB": "Egypt",
+    "sortOrder": 1106
+  },
+  {
+    "matchId": "GG2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "G",
+    "teamA": "Iran",
+    "teamB": "New Zealand",
+    "sortOrder": 1107
+  },
+  {
+    "matchId": "GG3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "G",
+    "teamA": "New Zealand",
+    "teamB": "Egypt",
+    "sortOrder": 1108
+  },
+  {
+    "matchId": "GG4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "G",
+    "teamA": "Belgium",
+    "teamB": "Iran",
+    "sortOrder": 1109
+  },
+  {
+    "matchId": "GG5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "G",
+    "teamA": "New Zealand",
+    "teamB": "Belgium",
+    "sortOrder": 1110
+  },
+  {
+    "matchId": "GG6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "G",
+    "teamA": "Egypt",
+    "teamB": "Iran",
+    "sortOrder": 1111
+  },
+  {
+    "matchId": "GH1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "H",
+    "teamA": "Spain",
+    "teamB": "Cape Verde",
+    "sortOrder": 1122
+  },
+  {
+    "matchId": "GH2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "H",
+    "teamA": "Saudi Arabia",
+    "teamB": "Uruguay",
+    "sortOrder": 1123
+  },
+  {
+    "matchId": "GH3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "H",
+    "teamA": "Uruguay",
+    "teamB": "Cape Verde",
+    "sortOrder": 1124
+  },
+  {
+    "matchId": "GH4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "H",
+    "teamA": "Spain",
+    "teamB": "Saudi Arabia",
+    "sortOrder": 1125
+  },
+  {
+    "matchId": "GH5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "H",
+    "teamA": "Uruguay",
+    "teamB": "Spain",
+    "sortOrder": 1126
+  },
+  {
+    "matchId": "GH6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "H",
+    "teamA": "Cape Verde",
+    "teamB": "Saudi Arabia",
+    "sortOrder": 1127
+  },
+  {
+    "matchId": "GI1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "I",
+    "teamA": "France",
+    "teamB": "Senegal",
+    "sortOrder": 1138
+  },
+  {
+    "matchId": "GI2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "I",
+    "teamA": "Iraq",
+    "teamB": "Norway",
+    "sortOrder": 1139
+  },
+  {
+    "matchId": "GI3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "I",
+    "teamA": "Norway",
+    "teamB": "Senegal",
+    "sortOrder": 1140
+  },
+  {
+    "matchId": "GI4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "I",
+    "teamA": "France",
+    "teamB": "Iraq",
+    "sortOrder": 1141
+  },
+  {
+    "matchId": "GI5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "I",
+    "teamA": "Norway",
+    "teamB": "France",
+    "sortOrder": 1142
+  },
+  {
+    "matchId": "GI6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "I",
+    "teamA": "Senegal",
+    "teamB": "Iraq",
+    "sortOrder": 1143
+  },
+  {
+    "matchId": "GJ1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "J",
+    "teamA": "Argentina",
+    "teamB": "Algeria",
+    "sortOrder": 1154
+  },
+  {
+    "matchId": "GJ2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "J",
+    "teamA": "Austria",
+    "teamB": "Jordan",
+    "sortOrder": 1155
+  },
+  {
+    "matchId": "GJ3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "J",
+    "teamA": "Jordan",
+    "teamB": "Algeria",
+    "sortOrder": 1156
+  },
+  {
+    "matchId": "GJ4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "J",
+    "teamA": "Argentina",
+    "teamB": "Austria",
+    "sortOrder": 1157
+  },
+  {
+    "matchId": "GJ5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "J",
+    "teamA": "Jordan",
+    "teamB": "Argentina",
+    "sortOrder": 1158
+  },
+  {
+    "matchId": "GJ6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "J",
+    "teamA": "Algeria",
+    "teamB": "Austria",
+    "sortOrder": 1159
+  },
+  {
+    "matchId": "GK1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "K",
+    "teamA": "Portugal",
+    "teamB": "DR Congo",
+    "sortOrder": 1170
+  },
+  {
+    "matchId": "GK2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "K",
+    "teamA": "Uzbekistan",
+    "teamB": "Colombia",
+    "sortOrder": 1171
+  },
+  {
+    "matchId": "GK3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "K",
+    "teamA": "Colombia",
+    "teamB": "DR Congo",
+    "sortOrder": 1172
+  },
+  {
+    "matchId": "GK4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "K",
+    "teamA": "Portugal",
+    "teamB": "Uzbekistan",
+    "sortOrder": 1173
+  },
+  {
+    "matchId": "GK5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "K",
+    "teamA": "Colombia",
+    "teamB": "Portugal",
+    "sortOrder": 1174
+  },
+  {
+    "matchId": "GK6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "K",
+    "teamA": "DR Congo",
+    "teamB": "Uzbekistan",
+    "sortOrder": 1175
+  },
+  {
+    "matchId": "GL1",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "L",
+    "teamA": "England",
+    "teamB": "Croatia",
+    "sortOrder": 1186
+  },
+  {
+    "matchId": "GL2",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "L",
+    "teamA": "Ghana",
+    "teamB": "Panama",
+    "sortOrder": 1187
+  },
+  {
+    "matchId": "GL3",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "L",
+    "teamA": "Panama",
+    "teamB": "Croatia",
+    "sortOrder": 1188
+  },
+  {
+    "matchId": "GL4",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "L",
+    "teamA": "England",
+    "teamB": "Ghana",
+    "sortOrder": 1189
+  },
+  {
+    "matchId": "GL5",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "L",
+    "teamA": "Panama",
+    "teamB": "England",
+    "sortOrder": 1190
+  },
+  {
+    "matchId": "GL6",
+    "phase": "Group stage",
+    "round": "Group stage",
+    "group": "L",
+    "teamA": "Croatia",
+    "teamB": "Ghana",
+    "sortOrder": 1191
+  },
+  {
+    "matchId": "73",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "South Korea",
+    "teamB": "Switzerland",
+    "sortOrder": 2072
+  },
+  {
+    "matchId": "74",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Ivory Coast",
+    "teamB": "Australia",
+    "sortOrder": 2073
+  },
+  {
+    "matchId": "75",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Japan",
+    "teamB": "Brazil",
+    "sortOrder": 2074
+  },
+  {
+    "matchId": "76",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Morocco",
+    "teamB": "Netherlands",
+    "sortOrder": 2075
+  },
+  {
+    "matchId": "77",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "France",
+    "teamB": "Uruguay",
+    "sortOrder": 2076
+  },
+  {
+    "matchId": "78",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Germany",
+    "teamB": "Norway",
+    "sortOrder": 2077
+  },
+  {
+    "matchId": "79",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Mexico",
+    "teamB": "Senegal",
+    "sortOrder": 2078
+  },
+  {
+    "matchId": "80",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "England",
+    "teamB": "DR Congo",
+    "sortOrder": 2079
+  },
+  {
+    "matchId": "81",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Türkiye",
+    "teamB": "Austria",
+    "sortOrder": 2080
+  },
+  {
+    "matchId": "82",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Egypt",
+    "teamB": "Ecuador",
+    "sortOrder": 2081
+  },
+  {
+    "matchId": "83",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Colombia",
+    "teamB": "Croatia",
+    "sortOrder": 2082
+  },
+  {
+    "matchId": "84",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Spain",
+    "teamB": "Algeria",
+    "sortOrder": 2083
+  },
+  {
+    "matchId": "85",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Canada",
+    "teamB": "Belgium",
+    "sortOrder": 2084
+  },
+  {
+    "matchId": "86",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Argentina",
+    "teamB": "Cape Verde",
+    "sortOrder": 2085
+  },
+  {
+    "matchId": "87",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Portugal",
+    "teamB": "Panama",
+    "sortOrder": 2086
+  },
+  {
+    "matchId": "88",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "United States",
+    "teamB": "Iran",
+    "sortOrder": 2087
+  },
+  {
+    "matchId": "89",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Switzerland",
+    "teamB": "Japan",
+    "sortOrder": 3088
+  },
+  {
+    "matchId": "90",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Ivory Coast",
+    "teamB": "France",
+    "sortOrder": 3089
+  },
+  {
+    "matchId": "91",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Morocco",
+    "teamB": "Norway",
+    "sortOrder": 3090
+  },
+  {
+    "matchId": "92",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Mexico",
+    "teamB": "England",
+    "sortOrder": 3091
+  },
+  {
+    "matchId": "93",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Colombia",
+    "teamB": "Spain",
+    "sortOrder": 3092
+  },
+  {
+    "matchId": "94",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Türkiye",
+    "teamB": "Egypt",
+    "sortOrder": 3093
+  },
+  {
+    "matchId": "95",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Argentina",
+    "teamB": "Iran",
+    "sortOrder": 3094
+  },
+  {
+    "matchId": "96",
+    "phase": "Knockout",
+    "round": "Round of 16",
+    "group": "",
+    "teamA": "Canada",
+    "teamB": "Portugal",
+    "sortOrder": 3095
+  },
+  {
+    "matchId": "97",
+    "phase": "Knockout",
+    "round": "Quarter-final",
+    "group": "",
+    "teamA": "Japan",
+    "teamB": "France",
+    "sortOrder": 4096
+  },
+  {
+    "matchId": "98",
+    "phase": "Knockout",
+    "round": "Quarter-final",
+    "group": "",
+    "teamA": "Spain",
+    "teamB": "Egypt",
+    "sortOrder": 4097
+  },
+  {
+    "matchId": "99",
+    "phase": "Knockout",
+    "round": "Quarter-final",
+    "group": "",
+    "teamA": "Morocco",
+    "teamB": "England",
+    "sortOrder": 4098
+  },
+  {
+    "matchId": "100",
+    "phase": "Knockout",
+    "round": "Quarter-final",
+    "group": "",
+    "teamA": "Argentina",
+    "teamB": "Portugal",
+    "sortOrder": 4099
+  },
+  {
+    "matchId": "101",
+    "phase": "Knockout",
+    "round": "Semi-final",
+    "group": "",
+    "teamA": "France",
+    "teamB": "Spain",
+    "sortOrder": 5100
+  },
+  {
+    "matchId": "102",
+    "phase": "Knockout",
+    "round": "Semi-final",
+    "group": "",
+    "teamA": "Morocco",
+    "teamB": "Argentina",
+    "sortOrder": 5101
+  },
+  {
+    "matchId": "103",
+    "phase": "Knockout",
+    "round": "Third-place match",
+    "group": "",
+    "teamA": "France",
+    "teamB": "Argentina",
+    "sortOrder": 6102
+  },
+  {
+    "matchId": "104",
+    "phase": "Knockout",
+    "round": "Final",
+    "group": "",
+    "teamA": "Spain",
+    "teamB": "Morocco",
+    "sortOrder": 7103
+  }
+]

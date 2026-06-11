@@ -1,0 +1,32 @@
+[
+  {
+    "modelKey": "fable-5-high",
+    "modelName": "Fable 5 (high effort)",
+    "normalizedPredictions": 104,
+    "warnings": []
+  },
+  {
+    "modelKey": "gemini-3-1-pro-medium",
+    "modelName": "Gemini 3.1 Pro (medium)",
+    "normalizedPredictions": 104,
+    "warnings": []
+  },
+  {
+    "modelKey": "gpt-5-5-xhigh",
+    "modelName": "gpt-5.5 (xhigh)",
+    "normalizedPredictions": 104,
+    "warnings": []
+  },
+  {
+    "modelKey": "grok-build-0-1",
+    "modelName": "grok-build-0.1",
+    "normalizedPredictions": 104,
+    "warnings": []
+  },
+  {
+    "modelKey": "composer-2-5-high",
+    "modelName": "Composer 2.5 (high)",
+    "normalizedPredictions": 104,
+    "warnings": []
+  }
+]

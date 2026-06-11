@@ -1,0 +1,32 @@
+[
+  {
+    "label": "predictions/fable_wc2026_predictions.csv",
+    "href": "/data/raw/fable_wc2026_predictions.csv",
+    "bytes": 20173
+  },
+  {
+    "label": "predictions/world_cup_2026_predictions_gemini.csv",
+    "href": "/data/raw/world_cup_2026_predictions_gemini.csv",
+    "bytes": 14491
+  },
+  {
+    "label": "predictions/wc2026_predictions_gpt.csv",
+    "href": "/data/raw/wc2026_predictions_gpt.csv",
+    "bytes": 19185
+  },
+  {
+    "label": "predictions/world_cup_2026_predictions_grok.csv",
+    "href": "/data/raw/world_cup_2026_predictions_grok.csv",
+    "bytes": 22782
+  },
+  {
+    "label": "predictions/wc2026_predictions_composer.csv",
+    "href": "/data/raw/wc2026_predictions_composer.csv",
+    "bytes": 18873
+  },
+  {
+    "label": "raw-data/international_matches_2022_2026.csv",
+    "href": "/data/raw/international_matches_2022_2026.csv",
+    "bytes": 1312596
+  }
+]

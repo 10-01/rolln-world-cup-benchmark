@@ -1,0 +1,41 @@
+name: Update World Cup results
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-results:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch latest completed fixtures
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_LEAGUE_ID: ${{ vars.API_FOOTBALL_LEAGUE_ID || '1' }}
+          API_FOOTBALL_SEASON: ${{ vars.API_FOOTBALL_SEASON || '2026' }}
+        run: npm run fetch-results
+
+      - name: Commit refreshed benchmark data
+        run: |
+          if [[ -n "$(git status --porcelain public/data)" ]]; then
+            git config user.name "world-cup-bench-bot"
+            git config user.email "world-cup-bench-bot@users.noreply.github.com"
+            git add public/data
+            git commit -m "Update World Cup benchmark results"
+            git push
+          else
+            echo "No data changes"
+          fi
