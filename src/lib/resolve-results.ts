@@ -313,6 +313,23 @@ export function loadBaseResults(): ResultRow[] {
     .map(toAppResult);
 }
 
+function completedCount(results: ResultRow[]): number {
+  return results.filter((row) => ["FT", "AET", "PEN"].includes(row.status)).length;
+}
+
+function latestResultTime(results: ResultRow[]): number {
+  let latest = 0;
+  for (const row of results) {
+    const at = Date.parse(row.updatedAt || "");
+    if (Number.isFinite(at) && at > latest) latest = at;
+  }
+  return latest;
+}
+
+function snapshotCoversBase(snapshotResults: ResultRow[], baseResults: ResultRow[]): boolean {
+  return completedCount(snapshotResults) >= completedCount(baseResults) && latestResultTime(snapshotResults) >= latestResultTime(baseResults);
+}
+
 function formatApiFootballErrors(errors: unknown): string {
   if (!errors) return "";
   if (typeof errors === "string") return errors.trim();
@@ -469,7 +486,7 @@ export async function getResolvedResults(options?: { forceFresh?: boolean }): Pr
     const snap = await kvGet<{ results: ResultRow[]; updatedAt: string }>(SNAPSHOT_KEY);
     if (snap && snap.results?.length) {
       const snapTime = Date.parse(snap.updatedAt || "");
-      if (Number.isFinite(snapTime) && now.getTime() - snapTime < SNAPSHOT_MAX_AGE_MS) {
+      if (Number.isFinite(snapTime) && now.getTime() - snapTime < SNAPSHOT_MAX_AGE_MS && snapshotCoversBase(snap.results, base)) {
         // Serve the persistent snapshot directly — no external API call
         return {
           results: snap.results,
