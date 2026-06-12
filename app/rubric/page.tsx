@@ -4,7 +4,7 @@ import { getBenchPageData } from "../lib/bench-page-data";
 
 export const metadata: Metadata = {
   title: "Rubric",
-  description: "Scoring rubric and secondary metrics for the world-cup-bench World Cup prediction benchmark.",
+  description: "Scoring rubric and secondary metrics for World Cup Bench, the AI World Cup prediction benchmark.",
   alternates: { canonical: "/rubric" },
 };
 

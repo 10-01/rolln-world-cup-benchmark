@@ -9,7 +9,7 @@ export default async function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    name: "world-cup-bench",
+    name: "World Cup Bench",
     url: siteUrl,
     applicationCategory: "SportsApplication",
     operatingSystem: "Web",
@@ -22,7 +22,7 @@ export default async function Home() {
     },
     mainEntity: {
       "@type": "Dataset",
-      name: "world-cup-bench normalized predictions",
+      name: "World Cup Bench normalized predictions",
       description: `${data.predictions.length} normalized predictions across ${data.matches.length} World Cup fixtures from ${data.models.length} AI models.`,
       url: `${siteUrl}/data/normalized-predictions.csv`,
       distribution: [

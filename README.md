@@ -1,4 +1,4 @@
-# world-cup-bench
+# World Cup Bench
 
 A live benchmark of frontier AI models predicting the **2026 FIFA World Cup** — built by [rolln](https://rolln.ai), live at [worldcupbench.rolln.ai](https://worldcupbench.rolln.ai).
 

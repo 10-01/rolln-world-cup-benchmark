@@ -28,12 +28,12 @@ const mono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "world-cup-bench | World Cup Prediction Model Benchmark",
-    template: "%s | world-cup-bench",
+    default: "World Cup Bench | AI World Cup Prediction Benchmark",
+    template: "%s | World Cup Bench",
   },
   description:
     "Track how leading AI models predict World Cup fixtures, compare win/draw/loss picks, confidence, scorelines, and download the raw benchmark data.",
-  applicationName: "world-cup-bench",
+  applicationName: "World Cup Bench",
   keywords: [
     "World Cup benchmark",
     "World Cup predictions",
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "world-cup-bench",
-    title: "world-cup-bench | World Cup Prediction Model Benchmark",
+    siteName: "World Cup Bench",
+    title: "World Cup Bench | AI World Cup Prediction Benchmark",
     description:
       "A live benchmark dashboard comparing model predictions across World Cup fixtures, confidence, scorelines, and downloadable raw data.",
     images: [
@@ -63,13 +63,13 @@ export const metadata: Metadata = {
         url: "/assets/rolln-world-cup-bench-logo.png",
         width: 331,
         height: 150,
-        alt: "rolln world-cup-bench",
+        alt: "rolln World Cup Bench",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "world-cup-bench | World Cup Prediction Model Benchmark",
+    title: "World Cup Bench | AI World Cup Prediction Benchmark",
     description: "Compare World Cup predictions from five AI models across every fixture.",
     images: ["/assets/rolln-world-cup-bench-logo.png"],
   },
