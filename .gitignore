@@ -7,3 +7,6 @@ dist/
 .DS_Store
 npm-debug.log*
 .vercel
+
+# TypeScript incremental build state
+tsconfig.tsbuildinfo
