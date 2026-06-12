@@ -11,6 +11,9 @@ const TEAM_ALIASES = new Map(
     "bosnia & herzegovina": "bosnia and herzegovina",
     "czech republic": "czechia",
     czechia: "czechia",
+    "korea republic": "south korea",
+    "republic of korea": "south korea",
+    "south korea": "south korea",
     "cape verde islands": "cape verde",
     "cape verde": "cape verde",
     curacao: "curacao",
@@ -117,6 +120,18 @@ function normalizeRound(value) {
   return raw;
 }
 
+function formatApiFootballErrors(errors) {
+  if (!errors) return "";
+  if (typeof errors === "string") return errors.trim();
+  if (Array.isArray(errors)) return errors.filter(Boolean).join("; ");
+  if (typeof errors === "object") {
+    return Object.entries(errors)
+      .map(([key, value]) => `${key}: ${typeof value === "string" ? value : JSON.stringify(value)}`)
+      .join("; ");
+  }
+  return String(errors);
+}
+
 function buildIndexes(matches) {
   const byGroupPair = new Map();
   const byRoundPair = new Map();
@@ -186,7 +201,17 @@ async function fetchApiFootballFixtures() {
     throw new Error(`API-Football request failed: ${response.status} ${response.statusText}`);
   }
   const payload = await response.json();
-  return payload.response ?? [];
+  const apiErrors = formatApiFootballErrors(payload.errors);
+  if (apiErrors) {
+    throw new Error(`API-Football returned an error: ${apiErrors}`);
+  }
+  if (!Array.isArray(payload.response)) {
+    throw new Error("API-Football response did not include a fixture list.");
+  }
+  if (payload.response.length === 0) {
+    throw new Error(`API-Football returned 0 fixtures for league=${league} season=${season}.`);
+  }
+  return payload.response;
 }
 
 async function main() {
@@ -201,14 +226,20 @@ async function main() {
   const fixtures = await fetchApiFootballFixtures();
   const now = new Date().toISOString();
   let updated = 0;
+  let finals = 0;
+  let unmatchedFinals = 0;
 
   for (const fixture of fixtures) {
     const status = fixture?.fixture?.status?.short ?? "";
     const isFinal = ["FT", "AET", "PEN"].includes(status);
     if (!isFinal) continue;
+    finals += 1;
 
     const match = mapFixtureToMatch(fixture, indexes);
-    if (!match) continue;
+    if (!match) {
+      unmatchedFinals += 1;
+      continue;
+    }
 
     const row = byId.get(match.matchId);
     if (!row) continue;
@@ -264,7 +295,9 @@ async function main() {
     "updated_at",
   ];
   writeCsv(RESULTS_PATH, existing, headers);
-  console.log(`Updated ${updated} completed fixture rows from API-Football.`);
+  console.log(
+    `Fetched ${fixtures.length} fixtures from API-Football; ${finals} final, ${updated} matched and updated, ${unmatchedFinals} unmatched.`,
+  );
 }
 
 main().catch((error) => {

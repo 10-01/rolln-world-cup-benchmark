@@ -15,6 +15,11 @@ type SnapshotStore = {
   set(key: string, value: unknown, ttlSeconds?: number): Promise<void>;
 };
 
+type ApiFootballPayload = {
+  response?: unknown;
+  errors?: unknown;
+};
+
 let snapshotStore: SnapshotStore | null = null;
 let redisClient: RedisClientType | null = null;
 
@@ -308,6 +313,18 @@ export function loadBaseResults(): ResultRow[] {
     .map(toAppResult);
 }
 
+function formatApiFootballErrors(errors: unknown): string {
+  if (!errors) return "";
+  if (typeof errors === "string") return errors.trim();
+  if (Array.isArray(errors)) return errors.filter(Boolean).map(String).join("; ");
+  if (typeof errors === "object") {
+    return Object.entries(errors as Record<string, unknown>)
+      .map(([key, value]) => `${key}: ${typeof value === "string" ? value : JSON.stringify(value)}`)
+      .join("; ");
+  }
+  return String(errors);
+}
+
 // --- live fixtures fetch (with Next.js fetch caching) ---
 export async function fetchLiveFixtures(): Promise<{ fixtures: any[]; error?: string }> {
   const key = process.env.API_FOOTBALL_KEY;
@@ -330,8 +347,18 @@ export async function fetchLiveFixtures(): Promise<{ fixtures: any[]; error?: st
     if (!response.ok) {
       return { fixtures: [], error: `API-Football returned ${response.status}.` };
     }
-    const payload = await response.json();
-    return { fixtures: payload.response ?? [] };
+    const payload = (await response.json()) as ApiFootballPayload;
+    const apiErrors = formatApiFootballErrors(payload.errors);
+    if (apiErrors) {
+      return { fixtures: [], error: `API-Football returned an error: ${apiErrors}` };
+    }
+    if (!Array.isArray(payload.response)) {
+      return { fixtures: [], error: "API-Football response did not include a fixture list." };
+    }
+    if (payload.response.length === 0) {
+      return { fixtures: [], error: `API-Football returned 0 fixtures for league=${league} season=${season}.` };
+    }
+    return { fixtures: payload.response };
   } catch (e: any) {
     return { fixtures: [], error: e?.message || "Failed to fetch live fixtures." };
   }
@@ -463,7 +490,7 @@ export async function getResolvedResults(options?: { forceFresh?: boolean }): Pr
       results: base,
       updatedAt: now.toISOString(),
       source: error ? "static" : "static",
-      error,
+      error: error || "API-Football returned no fixtures.",
     };
   }
 
@@ -480,8 +507,8 @@ export async function getResolvedResults(options?: { forceFresh?: boolean }): Pr
 // Called by cron (and optionally normal traffic) to persist the latest resolved view.
 export async function persistSnapshot(): Promise<{ ok: boolean; updatedAt?: string; count?: number; error?: string }> {
   const resolved = await getResolvedResults({ forceFresh: true });
-  if (resolved.error && !resolved.results.length) {
-    return { ok: false, error: resolved.error };
+  if (resolved.error) {
+    return { ok: false, updatedAt: resolved.updatedAt, count: resolved.results.length, error: resolved.error };
   }
   const payload = {
     results: resolved.results,

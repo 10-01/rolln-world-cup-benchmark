@@ -162,6 +162,9 @@ export type ModelStanding = {
 const TEAM_ALIASES: Record<string, string> = {
   "bosnia & herzegovina": "bosnia and herzegovina",
   "czech republic": "czechia",
+  "korea republic": "south korea",
+  "republic of korea": "south korea",
+  "south korea": "south korea",
   "curacao": "curacao",
   "curaçao": "curacao",
   "ivory coast": "ivory coast",

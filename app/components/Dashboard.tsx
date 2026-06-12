@@ -166,7 +166,7 @@ export function Dashboard({ initialData, tab }: { initialData: BenchData; tab: D
   const [modelFilter, setModelFilter] = useState("All");
   const [selectedMatchId, setSelectedMatchId] = useState("");
   const [liveResults, setLiveResults] = useState<ResultRow[] | null>(null);
-  const [liveStatus, setLiveStatus] = useState<"idle" | "loading" | "ready" | "snapshot" | "unconfigured" | "error">("idle");
+  const [liveStatus, setLiveStatus] = useState<"idle" | "loading" | "ready" | "snapshot" | "static" | "unconfigured" | "error">("idle");
   const [liveUpdatedAt, setLiveUpdatedAt] = useState<string | null>(null);
   const [localZone, setLocalZone] = useState<string | null>(null);
 
@@ -193,8 +193,12 @@ export function Dashboard({ initialData, tab }: { initialData: BenchData; tab: D
         setLiveResults(payload.results);
         setLiveUpdatedAt(payload.updatedAt || payload.snapshotAt || null);
       }
-      if (payload.ok && !payload.error) {
-        setLiveStatus(payload.source === "snapshot" ? "snapshot" : "ready");
+      if (payload.ok && !payload.error && payload.source === "snapshot") {
+        setLiveStatus("snapshot");
+      } else if (payload.ok && !payload.error && payload.source === "live") {
+        setLiveStatus("ready");
+      } else if (payload.source === "static") {
+        setLiveStatus("static");
       } else {
         setLiveStatus(payload.error && /key|config/i.test(payload.error) ? "unconfigured" : "error");
       }
