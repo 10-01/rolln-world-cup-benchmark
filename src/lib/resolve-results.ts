@@ -161,13 +161,43 @@ function groupFromRound(value: string) {
 function buildIndexes(matches: MatchRecord[]) {
   const byGroupPair = new Map<string, MatchRecord>();
   const byRoundPair = new Map<string, MatchRecord>();
+  const byRoundKickoff = new Map<string, Array<{ match: MatchRecord; kickoff: number }>>();
   for (const match of matches) {
     if (match.round === "Group stage") {
       byGroupPair.set(`${match.group}|${pairKey(match.teamA, match.teamB)}`, match);
     }
     byRoundPair.set(`${match.round}|${pairKey(match.teamA, match.teamB)}`, match);
+    const kickoff = match.kickoffUtc ? Date.parse(match.kickoffUtc) : NaN;
+    if (Number.isFinite(kickoff)) {
+      if (!byRoundKickoff.has(match.round)) byRoundKickoff.set(match.round, []);
+      byRoundKickoff.get(match.round)!.push({ match, kickoff });
+    }
   }
-  return { byGroupPair, byRoundPair };
+  return { byGroupPair, byRoundPair, byRoundKickoff };
+}
+
+// Knockout slots were benchmarked against a hypothetical bracket, so the real
+// fixture's teams usually won't pair-match a slot. The kickoff schedule is
+// fixed regardless of who advances, so fall back to round + nearest kickoff.
+function findKnockoutSlotByKickoff(
+  indexes: ReturnType<typeof buildIndexes>,
+  round: string,
+  fixtureDate: string,
+  toleranceMs = 2 * 60 * 60 * 1000,
+) {
+  const at = Date.parse(fixtureDate ?? "");
+  if (!Number.isFinite(at)) return undefined;
+  const slots = indexes.byRoundKickoff.get(round) ?? [];
+  let best: MatchRecord | undefined;
+  let bestDelta = Number.POSITIVE_INFINITY;
+  for (const slot of slots) {
+    const delta = Math.abs(slot.kickoff - at);
+    if (delta < bestDelta) {
+      best = slot.match;
+      bestDelta = delta;
+    }
+  }
+  return bestDelta <= toleranceMs ? best : undefined;
 }
 
 // Minimal CSV parser (good enough for our controlled results.csv)
@@ -324,10 +354,13 @@ export function applyLiveFixtures(base: ResultRow[], fixtures: any[]): ResultRow
     const fixtureHome = fixture?.teams?.home?.name ?? "";
     const fixtureAway = fixture?.teams?.away?.name ?? "";
 
-    const match =
+    const pairMatch =
       round === "Group stage"
         ? indexes.byGroupPair.get(`${group}|${pairKey(fixtureHome, fixtureAway)}`)
         : indexes.byRoundPair.get(`${round}|${pairKey(fixtureHome, fixtureAway)}`);
+    const slotMatch =
+      !pairMatch && round !== "Group stage" ? findKnockoutSlotByKickoff(indexes, round, fixture?.fixture?.date) : undefined;
+    const match = pairMatch ?? slotMatch;
 
     if (!match) continue;
 
@@ -339,16 +372,25 @@ export function applyLiveFixtures(base: ResultRow[], fixtures: any[]): ResultRow
     let scoreA: number | null = hasScore ? fixtureHomeGoals : null;
     let scoreB: number | null = hasScore ? fixtureAwayGoals : null;
 
-    // Handle API returning sides swapped vs our canonical teamA/teamB
-    if (hasScore && teamKey(fixtureHome) === teamKey(match.teamB) && teamKey(fixtureAway) === teamKey(match.teamA)) {
-      scoreA = fixtureAwayGoals;
-      scoreB = fixtureHomeGoals;
+    // Pair-matched: keep canonical orientation (API may list sides swapped).
+    // Slot-matched: reality diverged from the benchmark bracket, so adopt the
+    // real fixture's teams and orientation wholesale.
+    let teamA = match.teamA;
+    let teamB = match.teamB;
+    if (pairMatch) {
+      if (hasScore && teamKey(fixtureHome) === teamKey(match.teamB) && teamKey(fixtureAway) === teamKey(match.teamA)) {
+        scoreA = fixtureAwayGoals;
+        scoreB = fixtureHomeGoals;
+      }
+    } else {
+      teamA = fixtureHome;
+      teamB = fixtureAway;
     }
 
     const result: ResultRow["result"] =
       ["FT", "AET", "PEN"].includes(status) && hasScore ? resultFromScore(scoreA, scoreB) : "";
 
-    const winner = result === "H" ? match.teamA : result === "A" ? match.teamB : "";
+    const winner = result === "H" ? teamA : result === "A" ? teamB : "";
 
     const baseRow = byId.get(match.matchId) as any;
     const updated: ResultRow & {
@@ -362,8 +404,8 @@ export function applyLiveFixtures(base: ResultRow[], fixtures: any[]): ResultRow
       // Live overrides (these are the important resolved fields)
       matchId: match.matchId,
       status,
-      teamA: match.teamA,
-      teamB: match.teamB,
+      teamA,
+      teamB,
       homeScore: scoreA,
       awayScore: scoreB,
       result,
