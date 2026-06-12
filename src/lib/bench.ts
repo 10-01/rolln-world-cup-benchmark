@@ -16,7 +16,86 @@ export type MatchInfo = {
   teamA: string;
   teamB: string;
   sortOrder: number;
+  kickoffUtc?: string;
 };
+
+const ROUND_PLAY_ORDER: Record<string, number> = {
+  "Group stage": 1,
+  "Round of 32": 2,
+  "Round of 16": 3,
+  "Quarter-final": 4,
+  "Semi-final": 5,
+  "Third-place match": 6,
+  Final: 7,
+};
+
+function parseGroupMatchNumber(matchId: string) {
+  const match = matchId.match(/^G([A-L])(\d+)$/i);
+  if (!match) return null;
+  return {
+    groupIndex: match[1].toUpperCase().charCodeAt(0) - 64,
+    matchNumber: Number(match[2]),
+  };
+}
+
+export function matchPlayOrder(match: Pick<MatchInfo, "matchId" | "round" | "sortOrder" | "kickoffUtc">) {
+  if (match.kickoffUtc) {
+    const kickoff = Date.parse(match.kickoffUtc);
+    if (Number.isFinite(kickoff)) return kickoff;
+  }
+
+  const roundBase = (ROUND_PLAY_ORDER[match.round] ?? 99) * 1_000_000;
+  const groupMatch = parseGroupMatchNumber(match.matchId);
+  if (groupMatch) {
+    const { groupIndex, matchNumber } = groupMatch;
+    const matchday = Math.ceil(matchNumber / 2);
+    const slot = (matchNumber - 1) % 2;
+    return roundBase + matchday * 10_000 + slot * 1_000 + groupIndex * 10 + matchNumber;
+  }
+
+  const knockoutId = Number(match.matchId);
+  if (Number.isFinite(knockoutId)) return roundBase + knockoutId;
+
+  return roundBase + match.sortOrder;
+}
+
+export function compareMatchesByPlayTime(
+  a: Pick<MatchInfo, "matchId" | "round" | "sortOrder" | "kickoffUtc">,
+  b: Pick<MatchInfo, "matchId" | "round" | "sortOrder" | "kickoffUtc">,
+) {
+  return matchPlayOrder(a) - matchPlayOrder(b);
+}
+
+export function matchScheduleBucket(match: Pick<MatchInfo, "matchId" | "round" | "kickoffUtc">, timeZone = "UTC") {
+  if (match.kickoffUtc) {
+    const kickoff = Date.parse(match.kickoffUtc);
+    if (Number.isFinite(kickoff)) {
+      // Calendar date in the viewer's zone, so a 02:00 UTC match groups under the local evening before.
+      return new Intl.DateTimeFormat("en-CA", { timeZone, year: "numeric", month: "2-digit", day: "2-digit" }).format(kickoff);
+    }
+  }
+
+  const groupMatch = parseGroupMatchNumber(match.matchId);
+  if (groupMatch) {
+    const matchday = Math.ceil(groupMatch.matchNumber / 2);
+    return `matchday-${matchday}`;
+  }
+
+  return match.round || "Other";
+}
+
+export function formatScheduleBucketLabel(key: string, sample?: Pick<MatchInfo, "round">) {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(key)) {
+    const date = new Date(`${key}T00:00:00Z`);
+    return new Intl.DateTimeFormat("en-US", { weekday: "short", month: "long", day: "numeric", timeZone: "UTC" })
+      .format(date)
+      .toUpperCase();
+  }
+  const matchday = key.match(/^matchday-(\d+)$/);
+  if (matchday) return `MATCHDAY ${matchday[1]}`;
+  if (sample?.round) return sample.round.toUpperCase();
+  return key.toUpperCase();
+}
 
 export type Prediction = {
   modelKey: string;

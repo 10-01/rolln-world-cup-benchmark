@@ -59,6 +59,36 @@ const ROUND_ORDER = {
   Final: 7,
 };
 
+function parseGroupMatchNumber(matchId) {
+  const match = String(matchId).match(/^G([A-L])(\d+)$/i);
+  if (!match) return null;
+  return {
+    groupIndex: match[1].toUpperCase().charCodeAt(0) - 64,
+    matchNumber: Number(match[2]),
+  };
+}
+
+function computePlayOrder(match) {
+  if (match.kickoffUtc) {
+    const kickoff = Date.parse(match.kickoffUtc);
+    if (Number.isFinite(kickoff)) return kickoff;
+  }
+
+  const roundBase = (ROUND_ORDER[match.round] ?? 99) * 1_000_000;
+  const groupMatch = parseGroupMatchNumber(match.matchId);
+  if (groupMatch) {
+    const { groupIndex, matchNumber } = groupMatch;
+    const matchday = Math.ceil(matchNumber / 2);
+    const slot = (matchNumber - 1) % 2;
+    return roundBase + matchday * 10_000 + slot * 1_000 + groupIndex * 10 + matchNumber;
+  }
+
+  const knockoutId = Number(match.matchId);
+  if (Number.isFinite(knockoutId)) return roundBase + knockoutId;
+
+  return roundBase;
+}
+
 const TEAM_ALIASES = new Map(
   Object.entries({
     "bosnia & herzegovina": "bosnia and herzegovina",
@@ -1029,9 +1059,16 @@ function main() {
   const matches = buildCanonicalMatches(MODEL_DEFS);
   const { predictions, report } = normalizePredictions(matches);
   const resultRows = loadOrCreateResults(matches);
+  const kickoffById = new Map(resultRows.map((r) => [r.match_id, r.kickoff_utc || ""]));
+  const matchesWithDates = matches
+    .map((m) => ({ ...m, kickoffUtc: kickoffById.get(m.matchId) || "" }))
+    .sort((a, b) => computePlayOrder(a) - computePlayOrder(b))
+    .map((match, index) => ({ ...match, sortOrder: index + 1 }));
   const results = toAppResults(resultRows);
   const standings = aggregateStandings(MODEL_DEFS, predictions, results);
   const rawFiles = copyRawFiles();
+
+  const matchesForOutput = matchesWithDates;
 
   const normalizedHeaders = [
     "modelKey",
@@ -1058,7 +1095,7 @@ function main() {
   ];
   writeCsv(path.join(PUBLIC_DATA_DIR, "normalized-predictions.csv"), predictions, normalizedHeaders);
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "normalized-predictions.json"), JSON.stringify(predictions, null, 2));
-  fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "matches.json"), JSON.stringify(matches, null, 2));
+  fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "matches.json"), JSON.stringify(matchesForOutput, null, 2));
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "models.json"), JSON.stringify(MODEL_DEFS, null, 2));
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "scoring-rubric.json"), JSON.stringify(RUBRIC, null, 2));
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "normalization-report.json"), JSON.stringify(report, null, 2));
@@ -1068,7 +1105,7 @@ function main() {
       {
         generatedAt: new Date().toISOString(),
         models: MODEL_DEFS,
-        matches,
+        matches: matchesForOutput,
         predictions,
         results,
         standings,
@@ -1081,7 +1118,7 @@ function main() {
     ),
   );
 
-  console.log(`Prepared ${matches.length} matches and ${predictions.length} normalized predictions.`);
+  console.log(`Prepared ${matchesForOutput.length} matches and ${predictions.length} normalized predictions.`);
   for (const item of report) {
     console.log(`${item.modelName}: ${item.normalizedPredictions} predictions, ${item.warnings.length} warnings`);
   }

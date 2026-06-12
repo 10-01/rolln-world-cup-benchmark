@@ -1,10 +1,11 @@
-import benchData from "../public/data/bench-data.json";
-import { BenchData, Dashboard } from "./components/Dashboard";
+import { Dashboard } from "./components/Dashboard";
+import { getBenchPageData } from "./lib/bench-page-data";
 
 const siteUrl = "https://worldcupbench.rolln.ai";
 
-export default function Home() {
-  const data = benchData as BenchData;
+export default async function Home() {
+  const data = await getBenchPageData();
+
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
@@ -47,7 +48,7 @@ export default function Home() {
           __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
         }}
       />
-      <Dashboard initialData={data} />
+      <Dashboard initialData={data} tab="overview" />
     </>
   );
 }
