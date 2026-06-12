@@ -1099,24 +1099,33 @@ function main() {
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "models.json"), JSON.stringify(MODEL_DEFS, null, 2));
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "scoring-rubric.json"), JSON.stringify(RUBRIC, null, 2));
   fs.writeFileSync(path.join(PUBLIC_DATA_DIR, "normalization-report.json"), JSON.stringify(report, null, 2));
-  fs.writeFileSync(
-    path.join(PUBLIC_DATA_DIR, "bench-data.json"),
-    JSON.stringify(
-      {
-        generatedAt: new Date().toISOString(),
-        models: MODEL_DEFS,
-        matches: matchesForOutput,
-        predictions,
-        results,
-        standings,
-        rubric: RUBRIC,
-        normalizationReport: report,
-        rawFiles,
-      },
-      null,
-      2,
-    ),
-  );
+  // Only rewrite bench-data.json when something other than the timestamp changed,
+  // so the scheduled refresh job doesn't create churn commits (and merge conflicts).
+  const benchDataPath = path.join(PUBLIC_DATA_DIR, "bench-data.json");
+  const benchPayload = {
+    generatedAt: new Date().toISOString(),
+    models: MODEL_DEFS,
+    matches: matchesForOutput,
+    predictions,
+    results,
+    standings,
+    rubric: RUBRIC,
+    normalizationReport: report,
+    rawFiles,
+  };
+  let benchUnchanged = false;
+  if (fs.existsSync(benchDataPath)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(benchDataPath, "utf8"));
+      const stripTimestamp = ({ generatedAt, ...rest }) => rest;
+      benchUnchanged = JSON.stringify(stripTimestamp(existing)) === JSON.stringify(stripTimestamp(benchPayload));
+    } catch {
+      benchUnchanged = false;
+    }
+  }
+  if (!benchUnchanged) {
+    fs.writeFileSync(benchDataPath, JSON.stringify(benchPayload, null, 2));
+  }
 
   console.log(`Prepared ${matchesForOutput.length} matches and ${predictions.length} normalized predictions.`);
   for (const item of report) {
