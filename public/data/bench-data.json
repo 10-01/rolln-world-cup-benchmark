@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T19:32:55.510Z",
+  "generatedAt": "2026-06-14T20:30:11.031Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GA3",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GB3",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GC3",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GD2",
@@ -13398,7 +13398,7 @@
       "winner": "Australia",
       "apiFixtureId": "1539001",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GD3",
@@ -13483,7 +13483,7 @@
       "winner": "Germany",
       "apiFixtureId": "1489374",
       "source": "api-football",
-      "updatedAt": "2026-06-14T19:32:55.339Z"
+      "updatedAt": "2026-06-14T20:30:10.878Z"
     },
     {
       "matchId": "GE2",
