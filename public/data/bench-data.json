@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:08:51.241Z",
+  "generatedAt": "2026-06-14T07:03:45.451Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -134,7 +134,7 @@
       "teamA": "Australia",
       "teamB": "Türkiye",
       "sortOrder": 8,
-      "kickoffUtc": "2026-06-14T04:00:00Z"
+      "kickoffUtc": "2026-06-14T04:00:00+00:00"
     },
     {
       "matchId": "GE1",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GA3",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GB3",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GC3",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-06-14T05:08:51.096Z"
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GD2",
@@ -13390,15 +13390,15 @@
       "group": "D",
       "teamA": "Australia",
       "teamB": "Türkiye",
-      "kickoffUtc": "2026-06-14T04:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
-      "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "kickoffUtc": "2026-06-14T04:00:00+00:00",
+      "status": "FT",
+      "homeScore": 2,
+      "awayScore": 0,
+      "result": "H",
+      "winner": "Australia",
+      "apiFixtureId": "1539001",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T07:03:45.182Z"
     },
     {
       "matchId": "GD3",
@@ -14832,63 +14832,63 @@
   "standings": [
     {
       "modelKey": "gpt-5-5-xhigh",
-      "score": 36.089,
-      "completed": 7,
+      "score": 34.705,
+      "completed": 8,
       "correct": 3,
-      "accuracy": 0.4286,
+      "accuracy": 0.375,
       "exactScores": 0,
-      "brier": 0.7322,
-      "logLoss": 1.1934,
-      "confidenceCoverage": 7,
-      "probabilityCoverage": 7
+      "brier": 0.7333,
+      "logLoss": 1.1889,
+      "confidenceCoverage": 8,
+      "probabilityCoverage": 8
     },
     {
       "modelKey": "composer-2-5-high",
-      "score": 36.089,
-      "completed": 7,
+      "score": 34.705,
+      "completed": 8,
       "correct": 3,
-      "accuracy": 0.4286,
+      "accuracy": 0.375,
       "exactScores": 0,
-      "brier": 0.7322,
-      "logLoss": 1.1934,
-      "confidenceCoverage": 7,
-      "probabilityCoverage": 7
+      "brier": 0.7333,
+      "logLoss": 1.1889,
+      "confidenceCoverage": 8,
+      "probabilityCoverage": 8
     },
     {
       "modelKey": "fable-5-high",
-      "score": 35.315,
-      "completed": 7,
+      "score": 34.213,
+      "completed": 8,
       "correct": 3,
-      "accuracy": 0.4286,
+      "accuracy": 0.375,
       "exactScores": 0,
-      "brier": 0.7676,
-      "logLoss": 1.2053,
-      "confidenceCoverage": 7,
-      "probabilityCoverage": 7
+      "brier": 0.762,
+      "logLoss": 1.2004,
+      "confidenceCoverage": 8,
+      "probabilityCoverage": 8
     },
     {
       "modelKey": "grok-build-0-1",
-      "score": 34.528,
-      "completed": 7,
+      "score": 33.461,
+      "completed": 8,
       "correct": 3,
-      "accuracy": 0.4286,
+      "accuracy": 0.375,
       "exactScores": 0,
-      "brier": 0.7879,
-      "logLoss": 1.2135,
-      "confidenceCoverage": 7,
-      "probabilityCoverage": 7
+      "brier": 0.7824,
+      "logLoss": 1.2125,
+      "confidenceCoverage": 8,
+      "probabilityCoverage": 8
     },
     {
       "modelKey": "gemini-3-1-pro-medium",
-      "score": 23.21,
-      "completed": 7,
+      "score": 22.411,
+      "completed": 8,
       "correct": 2,
-      "accuracy": 0.2857,
+      "accuracy": 0.25,
       "exactScores": 1,
-      "brier": 0.8201,
-      "logLoss": 1.3659,
-      "confidenceCoverage": 7,
-      "probabilityCoverage": 7
+      "brier": 0.7974,
+      "logLoss": 1.3269,
+      "confidenceCoverage": 8,
+      "probabilityCoverage": 8
     }
   ],
   "rubric": {
