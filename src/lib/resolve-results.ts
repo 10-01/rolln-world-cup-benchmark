@@ -397,11 +397,12 @@ export function applyLiveFixtures(base: ResultRow[], fixtures: any[]): ResultRow
     const group = groupFromRound(fixtureRound);
     const fixtureHome = fixture?.teams?.home?.name ?? "";
     const fixtureAway = fixture?.teams?.away?.name ?? "";
+    const pair = pairKey(fixtureHome, fixtureAway);
 
     const pairMatch =
       round === "Group stage"
-        ? indexes.byGroupPair.get(`${group}|${pairKey(fixtureHome, fixtureAway)}`)
-        : indexes.byRoundPair.get(`${round}|${pairKey(fixtureHome, fixtureAway)}`);
+        ? indexes.byGroupPair.get(`${group}|${pair}`) ?? indexes.byRoundPair.get(`${round}|${pair}`)
+        : indexes.byRoundPair.get(`${round}|${pair}`);
     const slotMatch =
       !pairMatch && round !== "Group stage" ? findKnockoutSlotByKickoff(indexes, round, fixture?.fixture?.date) : undefined;
     const match = pairMatch ?? slotMatch;

@@ -180,7 +180,8 @@ function mapFixtureToMatch(fixture, indexes) {
   const home = fixture?.teams?.home?.name ?? "";
   const away = fixture?.teams?.away?.name ?? "";
   if (round === "Group stage") {
-    return indexes.byGroupPair.get(`${group}|${pairKey(home, away)}`);
+    const pair = pairKey(home, away);
+    return indexes.byGroupPair.get(`${group}|${pair}`) ?? indexes.byRoundPair.get(`${round}|${pair}`);
   }
   const pairMatch = indexes.byRoundPair.get(`${round}|${pairKey(home, away)}`);
   return pairMatch ?? findKnockoutSlotByKickoff(indexes, round, fixture?.fixture?.date);
