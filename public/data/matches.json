@@ -7,7 +7,7 @@
     "teamA": "Mexico",
     "teamB": "South Africa",
     "sortOrder": 1,
-    "kickoffUtc": "2026-06-11T19:00:00Z"
+    "kickoffUtc": "2026-06-11T19:00:00+00:00"
   },
   {
     "matchId": "GA2",
@@ -17,7 +17,7 @@
     "teamA": "South Korea",
     "teamB": "Czechia",
     "sortOrder": 2,
-    "kickoffUtc": "2026-06-12T02:00:00Z"
+    "kickoffUtc": "2026-06-12T02:00:00+00:00"
   },
   {
     "matchId": "GB1",
@@ -27,7 +27,7 @@
     "teamA": "Canada",
     "teamB": "Bosnia and Herzegovina",
     "sortOrder": 3,
-    "kickoffUtc": "2026-06-12T19:00:00Z"
+    "kickoffUtc": "2026-06-12T19:00:00+00:00"
   },
   {
     "matchId": "GD1",
@@ -37,7 +37,7 @@
     "teamA": "United States",
     "teamB": "Paraguay",
     "sortOrder": 4,
-    "kickoffUtc": "2026-06-13T01:00:00Z"
+    "kickoffUtc": "2026-06-13T01:00:00+00:00"
   },
   {
     "matchId": "GB2",
@@ -47,7 +47,7 @@
     "teamA": "Qatar",
     "teamB": "Switzerland",
     "sortOrder": 5,
-    "kickoffUtc": "2026-06-13T19:00:00Z"
+    "kickoffUtc": "2026-06-13T19:00:00+00:00"
   },
   {
     "matchId": "GC1",
@@ -57,7 +57,7 @@
     "teamA": "Brazil",
     "teamB": "Morocco",
     "sortOrder": 6,
-    "kickoffUtc": "2026-06-13T22:00:00Z"
+    "kickoffUtc": "2026-06-13T22:00:00+00:00"
   },
   {
     "matchId": "GC2",
@@ -67,7 +67,7 @@
     "teamA": "Haiti",
     "teamB": "Scotland",
     "sortOrder": 7,
-    "kickoffUtc": "2026-06-14T01:00:00Z"
+    "kickoffUtc": "2026-06-14T01:00:00+00:00"
   },
   {
     "matchId": "GD2",

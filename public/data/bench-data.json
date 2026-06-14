@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T20:15:54.210Z",
+  "generatedAt": "2026-06-14T05:08:51.241Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -64,7 +64,7 @@
       "teamA": "Mexico",
       "teamB": "South Africa",
       "sortOrder": 1,
-      "kickoffUtc": "2026-06-11T19:00:00Z"
+      "kickoffUtc": "2026-06-11T19:00:00+00:00"
     },
     {
       "matchId": "GA2",
@@ -74,7 +74,7 @@
       "teamA": "South Korea",
       "teamB": "Czechia",
       "sortOrder": 2,
-      "kickoffUtc": "2026-06-12T02:00:00Z"
+      "kickoffUtc": "2026-06-12T02:00:00+00:00"
     },
     {
       "matchId": "GB1",
@@ -84,7 +84,7 @@
       "teamA": "Canada",
       "teamB": "Bosnia and Herzegovina",
       "sortOrder": 3,
-      "kickoffUtc": "2026-06-12T19:00:00Z"
+      "kickoffUtc": "2026-06-12T19:00:00+00:00"
     },
     {
       "matchId": "GD1",
@@ -94,7 +94,7 @@
       "teamA": "United States",
       "teamB": "Paraguay",
       "sortOrder": 4,
-      "kickoffUtc": "2026-06-13T01:00:00Z"
+      "kickoffUtc": "2026-06-13T01:00:00+00:00"
     },
     {
       "matchId": "GB2",
@@ -104,7 +104,7 @@
       "teamA": "Qatar",
       "teamB": "Switzerland",
       "sortOrder": 5,
-      "kickoffUtc": "2026-06-13T19:00:00Z"
+      "kickoffUtc": "2026-06-13T19:00:00+00:00"
     },
     {
       "matchId": "GC1",
@@ -114,7 +114,7 @@
       "teamA": "Brazil",
       "teamB": "Morocco",
       "sortOrder": 6,
-      "kickoffUtc": "2026-06-13T22:00:00Z"
+      "kickoffUtc": "2026-06-13T22:00:00+00:00"
     },
     {
       "matchId": "GC2",
@@ -124,7 +124,7 @@
       "teamA": "Haiti",
       "teamB": "Scotland",
       "sortOrder": 7,
-      "kickoffUtc": "2026-06-14T01:00:00Z"
+      "kickoffUtc": "2026-06-14T01:00:00+00:00"
     },
     {
       "matchId": "GD2",
@@ -13067,15 +13067,15 @@
       "group": "A",
       "teamA": "Mexico",
       "teamB": "South Africa",
-      "kickoffUtc": "2026-06-11T19:00:00Z",
+      "kickoffUtc": "2026-06-11T19:00:00+00:00",
       "status": "FT",
       "homeScore": 2,
       "awayScore": 0,
       "result": "H",
       "winner": "Mexico",
-      "apiFixtureId": "",
-      "source": "manual (ESPN/FIFA final)",
-      "updatedAt": "2026-06-11T21:05:00Z"
+      "apiFixtureId": "1489369",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GA2",
@@ -13084,15 +13084,15 @@
       "group": "A",
       "teamA": "South Korea",
       "teamB": "Czechia",
-      "kickoffUtc": "2026-06-12T02:00:00Z",
+      "kickoffUtc": "2026-06-12T02:00:00+00:00",
       "status": "FT",
       "homeScore": 2,
       "awayScore": 1,
       "result": "H",
       "winner": "South Korea",
-      "apiFixtureId": "",
-      "source": "manual (FOX Sports final)",
-      "updatedAt": "2026-06-12T20:13:46Z"
+      "apiFixtureId": "1538999",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GA3",
@@ -13169,15 +13169,15 @@
       "group": "B",
       "teamA": "Canada",
       "teamB": "Bosnia and Herzegovina",
-      "kickoffUtc": "2026-06-12T19:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
+      "kickoffUtc": "2026-06-12T19:00:00+00:00",
+      "status": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
+      "result": "D",
       "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "apiFixtureId": "1539000",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GB2",
@@ -13186,15 +13186,15 @@
       "group": "B",
       "teamA": "Qatar",
       "teamB": "Switzerland",
-      "kickoffUtc": "2026-06-13T19:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
+      "kickoffUtc": "2026-06-13T19:00:00+00:00",
+      "status": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
+      "result": "D",
       "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "apiFixtureId": "1489373",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GB3",
@@ -13271,15 +13271,15 @@
       "group": "C",
       "teamA": "Brazil",
       "teamB": "Morocco",
-      "kickoffUtc": "2026-06-13T22:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
+      "kickoffUtc": "2026-06-13T22:00:00+00:00",
+      "status": "FT",
+      "homeScore": 1,
+      "awayScore": 1,
+      "result": "D",
       "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "apiFixtureId": "1489371",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GC2",
@@ -13288,15 +13288,15 @@
       "group": "C",
       "teamA": "Haiti",
       "teamB": "Scotland",
-      "kickoffUtc": "2026-06-14T01:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
-      "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "kickoffUtc": "2026-06-14T01:00:00+00:00",
+      "status": "FT",
+      "homeScore": 0,
+      "awayScore": 1,
+      "result": "A",
+      "winner": "Scotland",
+      "apiFixtureId": "1489372",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GC3",
@@ -13373,15 +13373,15 @@
       "group": "D",
       "teamA": "United States",
       "teamB": "Paraguay",
-      "kickoffUtc": "2026-06-13T01:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
-      "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "kickoffUtc": "2026-06-13T01:00:00+00:00",
+      "status": "FT",
+      "homeScore": 4,
+      "awayScore": 1,
+      "result": "H",
+      "winner": "United States",
+      "apiFixtureId": "1489370",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T05:08:51.096Z"
     },
     {
       "matchId": "GD2",
@@ -14831,64 +14831,64 @@
   ],
   "standings": [
     {
-      "modelKey": "gemini-3-1-pro-medium",
-      "score": 31.278,
-      "completed": 2,
-      "correct": 2,
-      "accuracy": 1,
-      "exactScores": 1,
-      "brier": 0.336,
-      "logLoss": 0.6305,
-      "confidenceCoverage": 2,
-      "probabilityCoverage": 2
-    },
-    {
-      "modelKey": "fable-5-high",
-      "score": 30.764,
-      "completed": 2,
-      "correct": 2,
-      "accuracy": 1,
-      "exactScores": 0,
-      "brier": 0.271,
-      "logLoss": 0.5516,
-      "confidenceCoverage": 2,
-      "probabilityCoverage": 2
-    },
-    {
       "modelKey": "gpt-5-5-xhigh",
-      "score": 30.272,
-      "completed": 2,
-      "correct": 2,
-      "accuracy": 1,
+      "score": 36.089,
+      "completed": 7,
+      "correct": 3,
+      "accuracy": 0.4286,
       "exactScores": 0,
-      "brier": 0.3402,
-      "logLoss": 0.6421,
-      "confidenceCoverage": 2,
-      "probabilityCoverage": 2
+      "brier": 0.7322,
+      "logLoss": 1.1934,
+      "confidenceCoverage": 7,
+      "probabilityCoverage": 7
     },
     {
       "modelKey": "composer-2-5-high",
-      "score": 30.272,
-      "completed": 2,
-      "correct": 2,
-      "accuracy": 1,
+      "score": 36.089,
+      "completed": 7,
+      "correct": 3,
+      "accuracy": 0.4286,
       "exactScores": 0,
-      "brier": 0.3402,
-      "logLoss": 0.6421,
-      "confidenceCoverage": 2,
-      "probabilityCoverage": 2
+      "brier": 0.7322,
+      "logLoss": 1.1934,
+      "confidenceCoverage": 7,
+      "probabilityCoverage": 7
+    },
+    {
+      "modelKey": "fable-5-high",
+      "score": 35.315,
+      "completed": 7,
+      "correct": 3,
+      "accuracy": 0.4286,
+      "exactScores": 0,
+      "brier": 0.7676,
+      "logLoss": 1.2053,
+      "confidenceCoverage": 7,
+      "probabilityCoverage": 7
     },
     {
       "modelKey": "grok-build-0-1",
-      "score": 30.237,
-      "completed": 2,
-      "correct": 2,
-      "accuracy": 1,
+      "score": 34.528,
+      "completed": 7,
+      "correct": 3,
+      "accuracy": 0.4286,
       "exactScores": 0,
-      "brier": 0.3432,
-      "logLoss": 0.6487,
-      "confidenceCoverage": 2,
-      "probabilityCoverage": 2
+      "brier": 0.7879,
+      "logLoss": 1.2135,
+      "confidenceCoverage": 7,
+      "probabilityCoverage": 7
+    },
+    {
+      "modelKey": "gemini-3-1-pro-medium",
+      "score": 23.21,
+      "completed": 7,
+      "correct": 2,
+      "accuracy": 0.2857,
+      "exactScores": 1,
+      "brier": 0.8201,
+      "logLoss": 1.3659,
+      "confidenceCoverage": 7,
+      "probabilityCoverage": 7
     }
   ],
   "rubric": {
