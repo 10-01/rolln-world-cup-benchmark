@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T18:30:35.176Z",
+  "generatedAt": "2026-06-14T19:32:55.510Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -144,7 +144,7 @@
       "teamA": "Germany",
       "teamB": "Curaçao",
       "sortOrder": 9,
-      "kickoffUtc": "2026-06-14T17:00:00Z"
+      "kickoffUtc": "2026-06-14T17:00:00+00:00"
     },
     {
       "matchId": "GF1",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GA3",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GB3",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GC3",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GD2",
@@ -13398,7 +13398,7 @@
       "winner": "Australia",
       "apiFixtureId": "1539001",
       "source": "api-football",
-      "updatedAt": "2026-06-14T18:30:35.036Z"
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GD3",
@@ -13475,15 +13475,15 @@
       "group": "E",
       "teamA": "Germany",
       "teamB": "Curaçao",
-      "kickoffUtc": "2026-06-14T17:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
-      "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "kickoffUtc": "2026-06-14T17:00:00+00:00",
+      "status": "FT",
+      "homeScore": 7,
+      "awayScore": 1,
+      "result": "H",
+      "winner": "Germany",
+      "apiFixtureId": "1489374",
+      "source": "api-football",
+      "updatedAt": "2026-06-14T19:32:55.339Z"
     },
     {
       "matchId": "GE2",
@@ -14832,63 +14832,63 @@
   "standings": [
     {
       "modelKey": "gpt-5-5-xhigh",
-      "score": 34.705,
-      "completed": 8,
-      "correct": 3,
-      "accuracy": 0.375,
+      "score": 48.638,
+      "completed": 9,
+      "correct": 4,
+      "accuracy": 0.4444,
       "exactScores": 0,
-      "brier": 0.7333,
-      "logLoss": 1.1889,
-      "confidenceCoverage": 8,
-      "probabilityCoverage": 8
+      "brier": 0.6805,
+      "logLoss": 1.1161,
+      "confidenceCoverage": 9,
+      "probabilityCoverage": 9
     },
     {
       "modelKey": "composer-2-5-high",
-      "score": 34.705,
-      "completed": 8,
-      "correct": 3,
-      "accuracy": 0.375,
+      "score": 48.638,
+      "completed": 9,
+      "correct": 4,
+      "accuracy": 0.4444,
       "exactScores": 0,
-      "brier": 0.7333,
-      "logLoss": 1.1889,
-      "confidenceCoverage": 8,
-      "probabilityCoverage": 8
+      "brier": 0.6805,
+      "logLoss": 1.1161,
+      "confidenceCoverage": 9,
+      "probabilityCoverage": 9
     },
     {
       "modelKey": "fable-5-high",
-      "score": 34.213,
-      "completed": 8,
-      "correct": 3,
-      "accuracy": 0.375,
+      "score": 48.39,
+      "completed": 9,
+      "correct": 4,
+      "accuracy": 0.4444,
       "exactScores": 0,
-      "brier": 0.762,
-      "logLoss": 1.2004,
-      "confidenceCoverage": 8,
-      "probabilityCoverage": 8
+      "brier": 0.6997,
+      "logLoss": 1.1174,
+      "confidenceCoverage": 9,
+      "probabilityCoverage": 9
     },
     {
       "modelKey": "grok-build-0-1",
-      "score": 33.461,
-      "completed": 8,
-      "correct": 3,
-      "accuracy": 0.375,
+      "score": 47.661,
+      "completed": 9,
+      "correct": 4,
+      "accuracy": 0.4444,
       "exactScores": 0,
-      "brier": 0.7824,
-      "logLoss": 1.2125,
-      "confidenceCoverage": 8,
-      "probabilityCoverage": 8
+      "brier": 0.7175,
+      "logLoss": 1.1274,
+      "confidenceCoverage": 9,
+      "probabilityCoverage": 9
     },
     {
       "modelKey": "gemini-3-1-pro-medium",
-      "score": 22.411,
-      "completed": 8,
-      "correct": 2,
-      "accuracy": 0.25,
+      "score": 35.21,
+      "completed": 9,
+      "correct": 3,
+      "accuracy": 0.3333,
       "exactScores": 1,
-      "brier": 0.7974,
-      "logLoss": 1.3269,
-      "confidenceCoverage": 8,
-      "probabilityCoverage": 8
+      "brier": 0.7471,
+      "logLoss": 1.2511,
+      "confidenceCoverage": 9,
+      "probabilityCoverage": 9
     }
   ],
   "rubric": {
