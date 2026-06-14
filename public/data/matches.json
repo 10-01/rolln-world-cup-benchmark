@@ -97,7 +97,7 @@
     "teamA": "Netherlands",
     "teamB": "Japan",
     "sortOrder": 10,
-    "kickoffUtc": "2026-06-14T20:00:00Z"
+    "kickoffUtc": "2026-06-14T20:00:00+00:00"
   },
   {
     "matchId": "GE2",
