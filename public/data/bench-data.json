@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T00:59:19.219Z",
+  "generatedAt": "2026-06-15T01:58:37.572Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -164,7 +164,7 @@
       "teamA": "Ivory Coast",
       "teamB": "Ecuador",
       "sortOrder": 11,
-      "kickoffUtc": "2026-06-14T23:00:00Z"
+      "kickoffUtc": "2026-06-14T23:00:00+00:00"
     },
     {
       "matchId": "GF2",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GA3",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GB3",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GC3",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GD2",
@@ -13398,7 +13398,7 @@
       "winner": "Australia",
       "apiFixtureId": "1539001",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GD3",
@@ -13483,7 +13483,7 @@
       "winner": "Germany",
       "apiFixtureId": "1489374",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GE2",
@@ -13492,15 +13492,15 @@
       "group": "E",
       "teamA": "Ivory Coast",
       "teamB": "Ecuador",
-      "kickoffUtc": "2026-06-14T23:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
-      "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "kickoffUtc": "2026-06-14T23:00:00+00:00",
+      "status": "FT",
+      "homeScore": 1,
+      "awayScore": 0,
+      "result": "H",
+      "winner": "Ivory Coast",
+      "apiFixtureId": "1489375",
+      "source": "api-football",
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GE3",
@@ -13585,7 +13585,7 @@
       "winner": "",
       "apiFixtureId": "1489376",
       "source": "api-football",
-      "updatedAt": "2026-06-15T00:59:19.053Z"
+      "updatedAt": "2026-06-15T01:58:37.422Z"
     },
     {
       "matchId": "GF2",
@@ -14832,63 +14832,63 @@
   "standings": [
     {
       "modelKey": "gpt-5-5-xhigh",
-      "score": 46.249,
-      "completed": 10,
-      "correct": 4,
-      "accuracy": 0.4,
-      "exactScores": 0,
-      "brier": 0.7077,
-      "logLoss": 1.1611,
-      "confidenceCoverage": 10,
-      "probabilityCoverage": 10
+      "score": 63.613,
+      "completed": 11,
+      "correct": 5,
+      "accuracy": 0.4545,
+      "exactScores": 1,
+      "brier": 0.6818,
+      "logLoss": 1.1237,
+      "confidenceCoverage": 11,
+      "probabilityCoverage": 11
     },
     {
       "modelKey": "composer-2-5-high",
-      "score": 46.249,
-      "completed": 10,
-      "correct": 4,
-      "accuracy": 0.4,
-      "exactScores": 0,
-      "brier": 0.7077,
-      "logLoss": 1.1611,
-      "confidenceCoverage": 10,
-      "probabilityCoverage": 10
+      "score": 63.613,
+      "completed": 11,
+      "correct": 5,
+      "accuracy": 0.4545,
+      "exactScores": 1,
+      "brier": 0.6818,
+      "logLoss": 1.1237,
+      "confidenceCoverage": 11,
+      "probabilityCoverage": 11
     },
     {
       "modelKey": "fable-5-high",
-      "score": 45.759,
-      "completed": 10,
-      "correct": 4,
-      "accuracy": 0.4,
-      "exactScores": 0,
-      "brier": 0.7189,
-      "logLoss": 1.1447,
-      "confidenceCoverage": 10,
-      "probabilityCoverage": 10
+      "score": 63.001,
+      "completed": 11,
+      "correct": 5,
+      "accuracy": 0.4545,
+      "exactScores": 1,
+      "brier": 0.695,
+      "logLoss": 1.1135,
+      "confidenceCoverage": 11,
+      "probabilityCoverage": 11
     },
     {
       "modelKey": "grok-build-0-1",
-      "score": 45.037,
-      "completed": 10,
-      "correct": 4,
-      "accuracy": 0.4,
-      "exactScores": 0,
-      "brier": 0.7318,
-      "logLoss": 1.1475,
-      "confidenceCoverage": 10,
-      "probabilityCoverage": 10
+      "score": 62.247,
+      "completed": 11,
+      "correct": 5,
+      "accuracy": 0.4545,
+      "exactScores": 1,
+      "brier": 0.7077,
+      "logLoss": 1.1174,
+      "confidenceCoverage": 11,
+      "probabilityCoverage": 11
     },
     {
       "modelKey": "gemini-3-1-pro-medium",
-      "score": 34.259,
-      "completed": 10,
-      "correct": 3,
-      "accuracy": 0.3,
+      "score": 49.354,
+      "completed": 11,
+      "correct": 4,
+      "accuracy": 0.3636,
       "exactScores": 1,
-      "brier": 0.7643,
-      "logLoss": 1.2768,
-      "confidenceCoverage": 10,
-      "probabilityCoverage": 10
+      "brier": 0.7412,
+      "logLoss": 1.2398,
+      "confidenceCoverage": 11,
+      "probabilityCoverage": 11
     }
   ],
   "rubric": {
