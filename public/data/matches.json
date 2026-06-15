@@ -127,7 +127,7 @@
     "teamA": "Spain",
     "teamB": "Cape Verde",
     "sortOrder": 13,
-    "kickoffUtc": "2026-06-15T16:00:00Z"
+    "kickoffUtc": "2026-06-15T16:00:00+00:00"
   },
   {
     "matchId": "GG1",
