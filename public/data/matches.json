@@ -157,7 +157,7 @@
     "teamA": "Iran",
     "teamB": "New Zealand",
     "sortOrder": 16,
-    "kickoffUtc": "2026-06-16T01:00:00Z"
+    "kickoffUtc": "2026-06-16T01:00:00+00:00"
   },
   {
     "matchId": "GI1",
