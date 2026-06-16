@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T20:03:54.290Z",
+  "generatedAt": "2026-06-16T21:30:25.298Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -224,7 +224,7 @@
       "teamA": "France",
       "teamB": "Senegal",
       "sortOrder": 17,
-      "kickoffUtc": "2026-06-16T19:00:00Z"
+      "kickoffUtc": "2026-06-16T19:00:00+00:00"
     },
     {
       "matchId": "GI2",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GA3",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GB3",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GC3",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GD2",
@@ -13398,7 +13398,7 @@
       "winner": "Australia",
       "apiFixtureId": "1539001",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GD3",
@@ -13483,7 +13483,7 @@
       "winner": "Germany",
       "apiFixtureId": "1489374",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GE2",
@@ -13500,7 +13500,7 @@
       "winner": "Ivory Coast",
       "apiFixtureId": "1489375",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GE3",
@@ -13585,7 +13585,7 @@
       "winner": "",
       "apiFixtureId": "1489376",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GF2",
@@ -13602,7 +13602,7 @@
       "winner": "Sweden",
       "apiFixtureId": "1539002",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GF3",
@@ -13687,7 +13687,7 @@
       "winner": "",
       "apiFixtureId": "1489377",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GG2",
@@ -13704,7 +13704,7 @@
       "winner": "",
       "apiFixtureId": "1489378",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GG3",
@@ -13789,7 +13789,7 @@
       "winner": "",
       "apiFixtureId": "1489380",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GH2",
@@ -13806,7 +13806,7 @@
       "winner": "",
       "apiFixtureId": "1489379",
       "source": "api-football",
-      "updatedAt": "2026-06-16T20:03:54.138Z"
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GH3",
@@ -13883,15 +13883,15 @@
       "group": "I",
       "teamA": "France",
       "teamB": "Senegal",
-      "kickoffUtc": "2026-06-16T19:00:00Z",
-      "status": "scheduled",
-      "homeScore": null,
-      "awayScore": null,
-      "result": "",
-      "winner": "",
-      "apiFixtureId": "",
-      "source": "results.csv template",
-      "updatedAt": ""
+      "kickoffUtc": "2026-06-16T19:00:00+00:00",
+      "status": "FT",
+      "homeScore": 3,
+      "awayScore": 1,
+      "result": "H",
+      "winner": "France",
+      "apiFixtureId": "1489383",
+      "source": "api-football",
+      "updatedAt": "2026-06-16T21:30:25.157Z"
     },
     {
       "matchId": "GI2",
@@ -14832,63 +14832,63 @@
   "standings": [
     {
       "modelKey": "gpt-5-5-xhigh",
-      "score": 52.363,
-      "completed": 16,
-      "correct": 5,
-      "accuracy": 0.3125,
+      "score": 65.733,
+      "completed": 17,
+      "correct": 6,
+      "accuracy": 0.3529,
       "exactScores": 1,
-      "brier": 0.7885,
-      "logLoss": 1.2764,
-      "confidenceCoverage": 16,
-      "probabilityCoverage": 16
+      "brier": 0.7669,
+      "logLoss": 1.2452,
+      "confidenceCoverage": 17,
+      "probabilityCoverage": 17
     },
     {
       "modelKey": "composer-2-5-high",
-      "score": 52.363,
-      "completed": 16,
-      "correct": 5,
-      "accuracy": 0.3125,
+      "score": 65.733,
+      "completed": 17,
+      "correct": 6,
+      "accuracy": 0.3529,
       "exactScores": 1,
-      "brier": 0.7885,
-      "logLoss": 1.2764,
-      "confidenceCoverage": 16,
-      "probabilityCoverage": 16
+      "brier": 0.7669,
+      "logLoss": 1.2452,
+      "confidenceCoverage": 17,
+      "probabilityCoverage": 17
     },
     {
       "modelKey": "fable-5-high",
-      "score": 49.496,
-      "completed": 16,
-      "correct": 5,
-      "accuracy": 0.3125,
+      "score": 62.929,
+      "completed": 17,
+      "correct": 6,
+      "accuracy": 0.3529,
       "exactScores": 1,
-      "brier": 0.8098,
-      "logLoss": 1.2619,
-      "confidenceCoverage": 16,
-      "probabilityCoverage": 16
+      "brier": 0.7854,
+      "logLoss": 1.2301,
+      "confidenceCoverage": 17,
+      "probabilityCoverage": 17
     },
     {
       "modelKey": "grok-build-0-1",
-      "score": 48.655,
-      "completed": 16,
-      "correct": 5,
-      "accuracy": 0.3125,
+      "score": 62.068,
+      "completed": 17,
+      "correct": 6,
+      "accuracy": 0.3529,
       "exactScores": 1,
-      "brier": 0.8184,
-      "logLoss": 1.2602,
-      "confidenceCoverage": 16,
-      "probabilityCoverage": 16
+      "brier": 0.7939,
+      "logLoss": 1.2289,
+      "confidenceCoverage": 17,
+      "probabilityCoverage": 17
     },
     {
       "modelKey": "gemini-3-1-pro-medium",
-      "score": 42.002,
-      "completed": 16,
-      "correct": 4,
-      "accuracy": 0.25,
+      "score": 55.91,
+      "completed": 17,
+      "correct": 5,
+      "accuracy": 0.2941,
       "exactScores": 1,
-      "brier": 0.859,
-      "logLoss": 1.4497,
-      "confidenceCoverage": 16,
-      "probabilityCoverage": 16
+      "brier": 0.8423,
+      "logLoss": 1.4211,
+      "confidenceCoverage": 17,
+      "probabilityCoverage": 17
     }
   ],
   "rubric": {

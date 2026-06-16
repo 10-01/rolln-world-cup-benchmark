@@ -167,7 +167,7 @@
     "teamA": "France",
     "teamB": "Senegal",
     "sortOrder": 17,
-    "kickoffUtc": "2026-06-16T19:00:00Z"
+    "kickoffUtc": "2026-06-16T19:00:00+00:00"
   },
   {
     "matchId": "GI2",
