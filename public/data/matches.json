@@ -177,7 +177,7 @@
     "teamA": "Iraq",
     "teamB": "Norway",
     "sortOrder": 18,
-    "kickoffUtc": "2026-06-16T22:00:00Z"
+    "kickoffUtc": "2026-06-16T22:00:00+00:00"
   },
   {
     "matchId": "GJ1",
