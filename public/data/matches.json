@@ -217,7 +217,7 @@
     "teamA": "England",
     "teamB": "Croatia",
     "sortOrder": 22,
-    "kickoffUtc": "2026-06-17T20:00:00Z"
+    "kickoffUtc": "2026-06-17T20:00:00+00:00"
   },
   {
     "matchId": "GL2",
