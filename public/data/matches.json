@@ -187,7 +187,7 @@
     "teamA": "Argentina",
     "teamB": "Algeria",
     "sortOrder": 19,
-    "kickoffUtc": "2026-06-17T01:00:00Z"
+    "kickoffUtc": "2026-06-17T01:00:00+00:00"
   },
   {
     "matchId": "GJ2",
