@@ -197,7 +197,7 @@
     "teamA": "Austria",
     "teamB": "Jordan",
     "sortOrder": 20,
-    "kickoffUtc": "2026-06-17T04:00:00Z"
+    "kickoffUtc": "2026-06-17T04:00:00+00:00"
   },
   {
     "matchId": "GK1",
