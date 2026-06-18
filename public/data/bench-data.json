@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T12:34:38.760Z",
+  "generatedAt": "2026-06-18T14:03:04.870Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GA3",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GB3",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GC3",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GD2",
@@ -13398,7 +13398,7 @@
       "winner": "Australia",
       "apiFixtureId": "1539001",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GD3",
@@ -13483,7 +13483,7 @@
       "winner": "Germany",
       "apiFixtureId": "1489374",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GE2",
@@ -13500,7 +13500,7 @@
       "winner": "Ivory Coast",
       "apiFixtureId": "1489375",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GE3",
@@ -13585,7 +13585,7 @@
       "winner": "",
       "apiFixtureId": "1489376",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GF2",
@@ -13602,7 +13602,7 @@
       "winner": "Sweden",
       "apiFixtureId": "1539002",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GF3",
@@ -13687,7 +13687,7 @@
       "winner": "",
       "apiFixtureId": "1489377",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GG2",
@@ -13704,7 +13704,7 @@
       "winner": "",
       "apiFixtureId": "1489378",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GG3",
@@ -13789,7 +13789,7 @@
       "winner": "",
       "apiFixtureId": "1489380",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GH2",
@@ -13806,7 +13806,7 @@
       "winner": "",
       "apiFixtureId": "1489379",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GH3",
@@ -13891,7 +13891,7 @@
       "winner": "France",
       "apiFixtureId": "1489383",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GI2",
@@ -13908,7 +13908,7 @@
       "winner": "Norway",
       "apiFixtureId": "1539016",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GI3",
@@ -13993,7 +13993,7 @@
       "winner": "Argentina",
       "apiFixtureId": "1489381",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GJ2",
@@ -14010,7 +14010,7 @@
       "winner": "Austria",
       "apiFixtureId": "1489382",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GJ3",
@@ -14095,7 +14095,7 @@
       "winner": "",
       "apiFixtureId": "1539003",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GK2",
@@ -14112,7 +14112,7 @@
       "winner": "Colombia",
       "apiFixtureId": "1489386",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GK3",
@@ -14197,7 +14197,7 @@
       "winner": "England",
       "apiFixtureId": "1489384",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GL2",
@@ -14214,7 +14214,7 @@
       "winner": "Ghana",
       "apiFixtureId": "1489385",
       "source": "api-football",
-      "updatedAt": "2026-06-18T12:34:38.641Z"
+      "updatedAt": "2026-06-18T14:03:04.731Z"
     },
     {
       "matchId": "GL3",
