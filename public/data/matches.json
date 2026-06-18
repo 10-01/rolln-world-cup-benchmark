@@ -227,7 +227,7 @@
     "teamA": "Ghana",
     "teamB": "Panama",
     "sortOrder": 23,
-    "kickoffUtc": "2026-06-17T23:00:00Z"
+    "kickoffUtc": "2026-06-17T23:00:00+00:00"
   },
   {
     "matchId": "GK2",
