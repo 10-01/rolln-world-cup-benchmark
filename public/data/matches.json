@@ -247,7 +247,7 @@
     "teamA": "Czechia",
     "teamB": "South Africa",
     "sortOrder": 25,
-    "kickoffUtc": "2026-06-18T16:00:00Z"
+    "kickoffUtc": "2026-06-18T16:00:00+00:00"
   },
   {
     "matchId": "GB3",
