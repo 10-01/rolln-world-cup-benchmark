@@ -257,7 +257,7 @@
     "teamA": "Switzerland",
     "teamB": "Bosnia and Herzegovina",
     "sortOrder": 26,
-    "kickoffUtc": "2026-06-18T19:00:00Z"
+    "kickoffUtc": "2026-06-18T19:00:00+00:00"
   },
   {
     "matchId": "GB4",
