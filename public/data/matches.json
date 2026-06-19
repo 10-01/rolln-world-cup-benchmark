@@ -287,7 +287,7 @@
     "teamA": "United States",
     "teamB": "Australia",
     "sortOrder": 29,
-    "kickoffUtc": "2026-06-19T19:00:00Z"
+    "kickoffUtc": "2026-06-19T19:00:00+00:00"
   },
   {
     "matchId": "GC3",
