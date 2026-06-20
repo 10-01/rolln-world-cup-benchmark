@@ -297,7 +297,7 @@
     "teamA": "Scotland",
     "teamB": "Morocco",
     "sortOrder": 30,
-    "kickoffUtc": "2026-06-19T22:00:00Z"
+    "kickoffUtc": "2026-06-19T22:00:00+00:00"
   },
   {
     "matchId": "GC4",
