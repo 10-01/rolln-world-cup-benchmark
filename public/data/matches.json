@@ -307,7 +307,7 @@
     "teamA": "Brazil",
     "teamB": "Haiti",
     "sortOrder": 31,
-    "kickoffUtc": "2026-06-20T00:30:00Z"
+    "kickoffUtc": "2026-06-20T00:30:00+00:00"
   },
   {
     "matchId": "GD3",
