@@ -337,7 +337,7 @@
     "teamA": "Germany",
     "teamB": "Ivory Coast",
     "sortOrder": 34,
-    "kickoffUtc": "2026-06-20T20:00:00Z"
+    "kickoffUtc": "2026-06-20T20:00:00+00:00"
   },
   {
     "matchId": "GE3",
