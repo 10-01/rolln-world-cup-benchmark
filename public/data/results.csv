@@ -1,72 +1,72 @@
 match_id,phase,round,group,team_a,team_b,kickoff_utc,status,home_score,away_score,result,winner,api_fixture_id,source,updated_at
-GA1,Group stage,Group stage,A,Mexico,South Africa,2026-06-11T19:00:00+00:00,FT,2,0,H,Mexico,1489369,api-football,2026-06-21T05:13:13.428Z
-GA2,Group stage,Group stage,A,South Korea,Czechia,2026-06-12T02:00:00+00:00,FT,2,1,H,South Korea,1538999,api-football,2026-06-21T05:13:13.428Z
-GA3,Group stage,Group stage,A,Czechia,South Africa,2026-06-18T16:00:00+00:00,FT,1,1,D,,1539004,api-football,2026-06-21T05:13:13.428Z
-GA4,Group stage,Group stage,A,Mexico,South Korea,2026-06-19T01:00:00+00:00,FT,1,0,H,Mexico,1489388,api-football,2026-06-21T05:13:13.428Z
+GA1,Group stage,Group stage,A,Mexico,South Africa,2026-06-11T19:00:00+00:00,FT,2,0,H,Mexico,1489369,api-football,2026-06-21T07:09:06.113Z
+GA2,Group stage,Group stage,A,South Korea,Czechia,2026-06-12T02:00:00+00:00,FT,2,1,H,South Korea,1538999,api-football,2026-06-21T07:09:06.113Z
+GA3,Group stage,Group stage,A,Czechia,South Africa,2026-06-18T16:00:00+00:00,FT,1,1,D,,1539004,api-football,2026-06-21T07:09:06.113Z
+GA4,Group stage,Group stage,A,Mexico,South Korea,2026-06-19T01:00:00+00:00,FT,1,0,H,Mexico,1489388,api-football,2026-06-21T07:09:06.113Z
 GA5,Group stage,Group stage,A,Czechia,Mexico,2026-06-25T01:00:00Z,scheduled,,,,,,results.csv template,
 GA6,Group stage,Group stage,A,South Africa,South Korea,2026-06-25T01:00:00Z,scheduled,,,,,,results.csv template,
-GB1,Group stage,Group stage,B,Canada,Bosnia and Herzegovina,2026-06-12T19:00:00+00:00,FT,1,1,D,,1539000,api-football,2026-06-21T05:13:13.428Z
-GB2,Group stage,Group stage,B,Qatar,Switzerland,2026-06-13T19:00:00+00:00,FT,1,1,D,,1489373,api-football,2026-06-21T05:13:13.428Z
-GB3,Group stage,Group stage,B,Switzerland,Bosnia and Herzegovina,2026-06-18T19:00:00+00:00,FT,4,1,H,Switzerland,1539005,api-football,2026-06-21T05:13:13.428Z
-GB4,Group stage,Group stage,B,Canada,Qatar,2026-06-18T22:00:00+00:00,FT,6,0,H,Canada,1489387,api-football,2026-06-21T05:13:13.428Z
+GB1,Group stage,Group stage,B,Canada,Bosnia and Herzegovina,2026-06-12T19:00:00+00:00,FT,1,1,D,,1539000,api-football,2026-06-21T07:09:06.113Z
+GB2,Group stage,Group stage,B,Qatar,Switzerland,2026-06-13T19:00:00+00:00,FT,1,1,D,,1489373,api-football,2026-06-21T07:09:06.113Z
+GB3,Group stage,Group stage,B,Switzerland,Bosnia and Herzegovina,2026-06-18T19:00:00+00:00,FT,4,1,H,Switzerland,1539005,api-football,2026-06-21T07:09:06.113Z
+GB4,Group stage,Group stage,B,Canada,Qatar,2026-06-18T22:00:00+00:00,FT,6,0,H,Canada,1489387,api-football,2026-06-21T07:09:06.113Z
 GB5,Group stage,Group stage,B,Switzerland,Canada,2026-06-24T19:00:00Z,scheduled,,,,,,results.csv template,
 GB6,Group stage,Group stage,B,Bosnia and Herzegovina,Qatar,2026-06-24T19:00:00Z,scheduled,,,,,,results.csv template,
-GC1,Group stage,Group stage,C,Brazil,Morocco,2026-06-13T22:00:00+00:00,FT,1,1,D,,1489371,api-football,2026-06-21T05:13:13.428Z
-GC2,Group stage,Group stage,C,Haiti,Scotland,2026-06-14T01:00:00+00:00,FT,0,1,A,Scotland,1489372,api-football,2026-06-21T05:13:13.428Z
-GC3,Group stage,Group stage,C,Scotland,Morocco,2026-06-19T22:00:00+00:00,FT,0,1,A,Morocco,1489390,api-football,2026-06-21T05:13:13.428Z
-GC4,Group stage,Group stage,C,Brazil,Haiti,2026-06-20T00:30:00+00:00,FT,3,0,H,Brazil,1489389,api-football,2026-06-21T05:13:13.428Z
+GC1,Group stage,Group stage,C,Brazil,Morocco,2026-06-13T22:00:00+00:00,FT,1,1,D,,1489371,api-football,2026-06-21T07:09:06.113Z
+GC2,Group stage,Group stage,C,Haiti,Scotland,2026-06-14T01:00:00+00:00,FT,0,1,A,Scotland,1489372,api-football,2026-06-21T07:09:06.113Z
+GC3,Group stage,Group stage,C,Scotland,Morocco,2026-06-19T22:00:00+00:00,FT,0,1,A,Morocco,1489390,api-football,2026-06-21T07:09:06.113Z
+GC4,Group stage,Group stage,C,Brazil,Haiti,2026-06-20T00:30:00+00:00,FT,3,0,H,Brazil,1489389,api-football,2026-06-21T07:09:06.113Z
 GC5,Group stage,Group stage,C,Scotland,Brazil,2026-06-24T22:00:00Z,scheduled,,,,,,results.csv template,
 GC6,Group stage,Group stage,C,Morocco,Haiti,2026-06-24T22:00:00Z,scheduled,,,,,,results.csv template,
-GD1,Group stage,Group stage,D,United States,Paraguay,2026-06-13T01:00:00+00:00,FT,4,1,H,United States,1489370,api-football,2026-06-21T05:13:13.428Z
-GD2,Group stage,Group stage,D,Australia,Türkiye,2026-06-14T04:00:00+00:00,FT,2,0,H,Australia,1539001,api-football,2026-06-21T05:13:13.428Z
-GD3,Group stage,Group stage,D,Türkiye,Paraguay,2026-06-20T03:00:00+00:00,FT,0,1,A,Paraguay,1539006,api-football,2026-06-21T05:13:13.428Z
-GD4,Group stage,Group stage,D,United States,Australia,2026-06-19T19:00:00+00:00,FT,2,0,H,United States,1489391,api-football,2026-06-21T05:13:13.428Z
+GD1,Group stage,Group stage,D,United States,Paraguay,2026-06-13T01:00:00+00:00,FT,4,1,H,United States,1489370,api-football,2026-06-21T07:09:06.113Z
+GD2,Group stage,Group stage,D,Australia,Türkiye,2026-06-14T04:00:00+00:00,FT,2,0,H,Australia,1539001,api-football,2026-06-21T07:09:06.113Z
+GD3,Group stage,Group stage,D,Türkiye,Paraguay,2026-06-20T03:00:00+00:00,FT,0,1,A,Paraguay,1539006,api-football,2026-06-21T07:09:06.113Z
+GD4,Group stage,Group stage,D,United States,Australia,2026-06-19T19:00:00+00:00,FT,2,0,H,United States,1489391,api-football,2026-06-21T07:09:06.113Z
 GD5,Group stage,Group stage,D,Türkiye,United States,2026-06-26T02:00:00Z,scheduled,,,,,,results.csv template,
 GD6,Group stage,Group stage,D,Paraguay,Australia,2026-06-26T02:00:00Z,scheduled,,,,,,results.csv template,
-GE1,Group stage,Group stage,E,Germany,Curaçao,2026-06-14T17:00:00+00:00,FT,7,1,H,Germany,1489374,api-football,2026-06-21T05:13:13.428Z
-GE2,Group stage,Group stage,E,Ivory Coast,Ecuador,2026-06-14T23:00:00+00:00,FT,1,0,H,Ivory Coast,1489375,api-football,2026-06-21T05:13:13.428Z
-GE3,Group stage,Group stage,E,Ecuador,Curaçao,2026-06-21T00:00:00+00:00,FT,0,0,D,,1489392,api-football,2026-06-21T05:13:13.428Z
-GE4,Group stage,Group stage,E,Germany,Ivory Coast,2026-06-20T20:00:00+00:00,FT,2,1,H,Germany,1489393,api-football,2026-06-21T05:13:13.428Z
+GE1,Group stage,Group stage,E,Germany,Curaçao,2026-06-14T17:00:00+00:00,FT,7,1,H,Germany,1489374,api-football,2026-06-21T07:09:06.113Z
+GE2,Group stage,Group stage,E,Ivory Coast,Ecuador,2026-06-14T23:00:00+00:00,FT,1,0,H,Ivory Coast,1489375,api-football,2026-06-21T07:09:06.113Z
+GE3,Group stage,Group stage,E,Ecuador,Curaçao,2026-06-21T00:00:00+00:00,FT,0,0,D,,1489392,api-football,2026-06-21T07:09:06.113Z
+GE4,Group stage,Group stage,E,Germany,Ivory Coast,2026-06-20T20:00:00+00:00,FT,2,1,H,Germany,1489393,api-football,2026-06-21T07:09:06.113Z
 GE5,Group stage,Group stage,E,Ecuador,Germany,2026-06-25T20:00:00Z,scheduled,,,,,,results.csv template,
 GE6,Group stage,Group stage,E,Curaçao,Ivory Coast,2026-06-25T20:00:00Z,scheduled,,,,,,results.csv template,
-GF1,Group stage,Group stage,F,Netherlands,Japan,2026-06-14T20:00:00+00:00,FT,2,2,D,,1489376,api-football,2026-06-21T05:13:13.428Z
-GF2,Group stage,Group stage,F,Sweden,Tunisia,2026-06-15T02:00:00+00:00,FT,5,1,H,Sweden,1539002,api-football,2026-06-21T05:13:13.428Z
-GF3,Group stage,Group stage,F,Tunisia,Japan,2026-06-21T04:00:00Z,scheduled,,,,,,results.csv template,
-GF4,Group stage,Group stage,F,Netherlands,Sweden,2026-06-20T17:00:00+00:00,FT,5,1,H,Netherlands,1539007,api-football,2026-06-21T05:13:13.428Z
+GF1,Group stage,Group stage,F,Netherlands,Japan,2026-06-14T20:00:00+00:00,FT,2,2,D,,1489376,api-football,2026-06-21T07:09:06.113Z
+GF2,Group stage,Group stage,F,Sweden,Tunisia,2026-06-15T02:00:00+00:00,FT,5,1,H,Sweden,1539002,api-football,2026-06-21T07:09:06.113Z
+GF3,Group stage,Group stage,F,Tunisia,Japan,2026-06-21T04:00:00+00:00,FT,0,4,A,Japan,1489394,api-football,2026-06-21T07:09:06.113Z
+GF4,Group stage,Group stage,F,Netherlands,Sweden,2026-06-20T17:00:00+00:00,FT,5,1,H,Netherlands,1539007,api-football,2026-06-21T07:09:06.113Z
 GF5,Group stage,Group stage,F,Tunisia,Netherlands,2026-06-25T23:00:00Z,scheduled,,,,,,results.csv template,
 GF6,Group stage,Group stage,F,Japan,Sweden,2026-06-25T23:00:00Z,scheduled,,,,,,results.csv template,
-GG1,Group stage,Group stage,G,Belgium,Egypt,2026-06-15T19:00:00+00:00,FT,1,1,D,,1489377,api-football,2026-06-21T05:13:13.428Z
-GG2,Group stage,Group stage,G,Iran,New Zealand,2026-06-16T01:00:00+00:00,FT,2,2,D,,1489378,api-football,2026-06-21T05:13:13.428Z
+GG1,Group stage,Group stage,G,Belgium,Egypt,2026-06-15T19:00:00+00:00,FT,1,1,D,,1489377,api-football,2026-06-21T07:09:06.113Z
+GG2,Group stage,Group stage,G,Iran,New Zealand,2026-06-16T01:00:00+00:00,FT,2,2,D,,1489378,api-football,2026-06-21T07:09:06.113Z
 GG3,Group stage,Group stage,G,New Zealand,Egypt,2026-06-22T01:00:00Z,scheduled,,,,,,results.csv template,
 GG4,Group stage,Group stage,G,Belgium,Iran,2026-06-21T19:00:00Z,scheduled,,,,,,results.csv template,
 GG5,Group stage,Group stage,G,New Zealand,Belgium,2026-06-27T03:00:00Z,scheduled,,,,,,results.csv template,
 GG6,Group stage,Group stage,G,Egypt,Iran,2026-06-27T03:00:00Z,scheduled,,,,,,results.csv template,
-GH1,Group stage,Group stage,H,Spain,Cape Verde,2026-06-15T16:00:00+00:00,FT,0,0,D,,1489380,api-football,2026-06-21T05:13:13.428Z
-GH2,Group stage,Group stage,H,Saudi Arabia,Uruguay,2026-06-15T22:00:00+00:00,FT,1,1,D,,1489379,api-football,2026-06-21T05:13:13.428Z
+GH1,Group stage,Group stage,H,Spain,Cape Verde,2026-06-15T16:00:00+00:00,FT,0,0,D,,1489380,api-football,2026-06-21T07:09:06.113Z
+GH2,Group stage,Group stage,H,Saudi Arabia,Uruguay,2026-06-15T22:00:00+00:00,FT,1,1,D,,1489379,api-football,2026-06-21T07:09:06.113Z
 GH3,Group stage,Group stage,H,Uruguay,Cape Verde,2026-06-21T22:00:00Z,scheduled,,,,,,results.csv template,
 GH4,Group stage,Group stage,H,Spain,Saudi Arabia,2026-06-21T16:00:00Z,scheduled,,,,,,results.csv template,
 GH5,Group stage,Group stage,H,Uruguay,Spain,2026-06-27T00:00:00Z,scheduled,,,,,,results.csv template,
 GH6,Group stage,Group stage,H,Cape Verde,Saudi Arabia,2026-06-27T00:00:00Z,scheduled,,,,,,results.csv template,
-GI1,Group stage,Group stage,I,France,Senegal,2026-06-16T19:00:00+00:00,FT,3,1,H,France,1489383,api-football,2026-06-21T05:13:13.428Z
-GI2,Group stage,Group stage,I,Iraq,Norway,2026-06-16T22:00:00+00:00,FT,1,4,A,Norway,1539016,api-football,2026-06-21T05:13:13.428Z
+GI1,Group stage,Group stage,I,France,Senegal,2026-06-16T19:00:00+00:00,FT,3,1,H,France,1489383,api-football,2026-06-21T07:09:06.113Z
+GI2,Group stage,Group stage,I,Iraq,Norway,2026-06-16T22:00:00+00:00,FT,1,4,A,Norway,1539016,api-football,2026-06-21T07:09:06.113Z
 GI3,Group stage,Group stage,I,Norway,Senegal,2026-06-23T00:00:00Z,scheduled,,,,,,results.csv template,
 GI4,Group stage,Group stage,I,France,Iraq,2026-06-22T21:00:00Z,scheduled,,,,,,results.csv template,
 GI5,Group stage,Group stage,I,Norway,France,2026-06-26T19:00:00Z,scheduled,,,,,,results.csv template,
 GI6,Group stage,Group stage,I,Senegal,Iraq,2026-06-26T19:00:00Z,scheduled,,,,,,results.csv template,
-GJ1,Group stage,Group stage,J,Argentina,Algeria,2026-06-17T01:00:00+00:00,FT,3,0,H,Argentina,1489381,api-football,2026-06-21T05:13:13.428Z
-GJ2,Group stage,Group stage,J,Austria,Jordan,2026-06-17T04:00:00+00:00,FT,3,1,H,Austria,1489382,api-football,2026-06-21T05:13:13.428Z
+GJ1,Group stage,Group stage,J,Argentina,Algeria,2026-06-17T01:00:00+00:00,FT,3,0,H,Argentina,1489381,api-football,2026-06-21T07:09:06.113Z
+GJ2,Group stage,Group stage,J,Austria,Jordan,2026-06-17T04:00:00+00:00,FT,3,1,H,Austria,1489382,api-football,2026-06-21T07:09:06.113Z
 GJ3,Group stage,Group stage,J,Jordan,Algeria,2026-06-23T03:00:00Z,scheduled,,,,,,results.csv template,
 GJ4,Group stage,Group stage,J,Argentina,Austria,2026-06-22T17:00:00Z,scheduled,,,,,,results.csv template,
 GJ5,Group stage,Group stage,J,Jordan,Argentina,2026-06-28T02:00:00Z,scheduled,,,,,,results.csv template,
 GJ6,Group stage,Group stage,J,Algeria,Austria,2026-06-28T02:00:00Z,scheduled,,,,,,results.csv template,
-GK1,Group stage,Group stage,K,Portugal,DR Congo,2026-06-17T17:00:00+00:00,FT,1,1,D,,1539003,api-football,2026-06-21T05:13:13.428Z
-GK2,Group stage,Group stage,K,Uzbekistan,Colombia,2026-06-18T02:00:00+00:00,FT,1,3,A,Colombia,1489386,api-football,2026-06-21T05:13:13.428Z
+GK1,Group stage,Group stage,K,Portugal,DR Congo,2026-06-17T17:00:00+00:00,FT,1,1,D,,1539003,api-football,2026-06-21T07:09:06.113Z
+GK2,Group stage,Group stage,K,Uzbekistan,Colombia,2026-06-18T02:00:00+00:00,FT,1,3,A,Colombia,1489386,api-football,2026-06-21T07:09:06.113Z
 GK3,Group stage,Group stage,K,Colombia,DR Congo,2026-06-24T02:00:00Z,scheduled,,,,,,results.csv template,
 GK4,Group stage,Group stage,K,Portugal,Uzbekistan,2026-06-23T17:00:00Z,scheduled,,,,,,results.csv template,
 GK5,Group stage,Group stage,K,Colombia,Portugal,2026-06-27T23:30:00Z,scheduled,,,,,,results.csv template,
 GK6,Group stage,Group stage,K,DR Congo,Uzbekistan,2026-06-27T23:30:00Z,scheduled,,,,,,results.csv template,
-GL1,Group stage,Group stage,L,England,Croatia,2026-06-17T20:00:00+00:00,FT,4,2,H,England,1489384,api-football,2026-06-21T05:13:13.428Z
-GL2,Group stage,Group stage,L,Ghana,Panama,2026-06-17T23:00:00+00:00,FT,1,0,H,Ghana,1489385,api-football,2026-06-21T05:13:13.428Z
+GL1,Group stage,Group stage,L,England,Croatia,2026-06-17T20:00:00+00:00,FT,4,2,H,England,1489384,api-football,2026-06-21T07:09:06.113Z
+GL2,Group stage,Group stage,L,Ghana,Panama,2026-06-17T23:00:00+00:00,FT,1,0,H,Ghana,1489385,api-football,2026-06-21T07:09:06.113Z
 GL3,Group stage,Group stage,L,Panama,Croatia,2026-06-23T23:00:00Z,scheduled,,,,,,results.csv template,
 GL4,Group stage,Group stage,L,England,Ghana,2026-06-23T20:00:00Z,scheduled,,,,,,results.csv template,
 GL5,Group stage,Group stage,L,Panama,England,2026-06-27T21:00:00Z,scheduled,,,,,,results.csv template,

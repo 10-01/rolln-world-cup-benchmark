@@ -357,7 +357,7 @@
     "teamA": "Tunisia",
     "teamB": "Japan",
     "sortOrder": 36,
-    "kickoffUtc": "2026-06-21T04:00:00Z"
+    "kickoffUtc": "2026-06-21T04:00:00+00:00"
   },
   {
     "matchId": "GH4",
