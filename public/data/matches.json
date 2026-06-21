@@ -377,7 +377,7 @@
     "teamA": "Belgium",
     "teamB": "Iran",
     "sortOrder": 38,
-    "kickoffUtc": "2026-06-21T19:00:00Z"
+    "kickoffUtc": "2026-06-21T19:00:00+00:00"
   },
   {
     "matchId": "GH3",
