@@ -397,7 +397,7 @@
     "teamA": "New Zealand",
     "teamB": "Egypt",
     "sortOrder": 40,
-    "kickoffUtc": "2026-06-22T01:00:00Z"
+    "kickoffUtc": "2026-06-22T01:00:00+00:00"
   },
   {
     "matchId": "GJ4",
