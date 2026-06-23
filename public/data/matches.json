@@ -417,7 +417,7 @@
     "teamA": "France",
     "teamB": "Iraq",
     "sortOrder": 42,
-    "kickoffUtc": "2026-06-22T21:00:00Z"
+    "kickoffUtc": "2026-06-22T21:00:00+00:00"
   },
   {
     "matchId": "GI3",
