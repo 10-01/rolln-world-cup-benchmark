@@ -457,7 +457,7 @@
     "teamA": "England",
     "teamB": "Ghana",
     "sortOrder": 46,
-    "kickoffUtc": "2026-06-23T20:00:00Z"
+    "kickoffUtc": "2026-06-23T20:00:00+00:00"
   },
   {
     "matchId": "GL3",
