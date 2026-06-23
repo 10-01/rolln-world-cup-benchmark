@@ -447,7 +447,7 @@
     "teamA": "Portugal",
     "teamB": "Uzbekistan",
     "sortOrder": 45,
-    "kickoffUtc": "2026-06-23T17:00:00Z"
+    "kickoffUtc": "2026-06-23T17:00:00+00:00"
   },
   {
     "matchId": "GL4",
