@@ -487,7 +487,7 @@
     "teamA": "Switzerland",
     "teamB": "Canada",
     "sortOrder": 49,
-    "kickoffUtc": "2026-06-24T19:00:00Z"
+    "kickoffUtc": "2026-06-24T19:00:00+00:00"
   },
   {
     "matchId": "GB6",
@@ -497,7 +497,7 @@
     "teamA": "Bosnia and Herzegovina",
     "teamB": "Qatar",
     "sortOrder": 50,
-    "kickoffUtc": "2026-06-24T19:00:00Z"
+    "kickoffUtc": "2026-06-24T19:00:00+00:00"
   },
   {
     "matchId": "GC5",
