@@ -507,7 +507,7 @@
     "teamA": "Scotland",
     "teamB": "Brazil",
     "sortOrder": 51,
-    "kickoffUtc": "2026-06-24T22:00:00Z"
+    "kickoffUtc": "2026-06-24T22:00:00+00:00"
   },
   {
     "matchId": "GC6",
@@ -517,7 +517,7 @@
     "teamA": "Morocco",
     "teamB": "Haiti",
     "sortOrder": 52,
-    "kickoffUtc": "2026-06-24T22:00:00Z"
+    "kickoffUtc": "2026-06-24T22:00:00+00:00"
   },
   {
     "matchId": "GA5",
