@@ -527,7 +527,7 @@
     "teamA": "Czechia",
     "teamB": "Mexico",
     "sortOrder": 53,
-    "kickoffUtc": "2026-06-25T01:00:00Z"
+    "kickoffUtc": "2026-06-25T01:00:00+00:00"
   },
   {
     "matchId": "GA6",
@@ -537,7 +537,7 @@
     "teamA": "South Africa",
     "teamB": "South Korea",
     "sortOrder": 54,
-    "kickoffUtc": "2026-06-25T01:00:00Z"
+    "kickoffUtc": "2026-06-25T01:00:00+00:00"
   },
   {
     "matchId": "GE5",
