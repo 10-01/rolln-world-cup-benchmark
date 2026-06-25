@@ -547,7 +547,7 @@
     "teamA": "Ecuador",
     "teamB": "Germany",
     "sortOrder": 55,
-    "kickoffUtc": "2026-06-25T20:00:00Z"
+    "kickoffUtc": "2026-06-25T20:00:00+00:00"
   },
   {
     "matchId": "GE6",
@@ -557,7 +557,7 @@
     "teamA": "Curaçao",
     "teamB": "Ivory Coast",
     "sortOrder": 56,
-    "kickoffUtc": "2026-06-25T20:00:00Z"
+    "kickoffUtc": "2026-06-25T20:00:00+00:00"
   },
   {
     "matchId": "GF5",
