@@ -567,7 +567,7 @@
     "teamA": "Tunisia",
     "teamB": "Netherlands",
     "sortOrder": 57,
-    "kickoffUtc": "2026-06-25T23:00:00Z"
+    "kickoffUtc": "2026-06-25T23:00:00+00:00"
   },
   {
     "matchId": "GF6",
@@ -577,7 +577,7 @@
     "teamA": "Japan",
     "teamB": "Sweden",
     "sortOrder": 58,
-    "kickoffUtc": "2026-06-25T23:00:00Z"
+    "kickoffUtc": "2026-06-25T23:00:00+00:00"
   },
   {
     "matchId": "GD5",
