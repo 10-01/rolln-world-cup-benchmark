@@ -607,7 +607,7 @@
     "teamA": "Norway",
     "teamB": "France",
     "sortOrder": 61,
-    "kickoffUtc": "2026-06-26T19:00:00Z"
+    "kickoffUtc": "2026-06-26T19:00:00+00:00"
   },
   {
     "matchId": "GI6",
@@ -617,7 +617,7 @@
     "teamA": "Senegal",
     "teamB": "Iraq",
     "sortOrder": 62,
-    "kickoffUtc": "2026-06-26T19:00:00Z"
+    "kickoffUtc": "2026-06-26T19:00:00+00:00"
   },
   {
     "matchId": "GH5",
