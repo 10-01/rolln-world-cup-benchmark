@@ -587,7 +587,7 @@
     "teamA": "Türkiye",
     "teamB": "United States",
     "sortOrder": 59,
-    "kickoffUtc": "2026-06-26T02:00:00Z"
+    "kickoffUtc": "2026-06-26T02:00:00+00:00"
   },
   {
     "matchId": "GD6",
@@ -597,7 +597,7 @@
     "teamA": "Paraguay",
     "teamB": "Australia",
     "sortOrder": 60,
-    "kickoffUtc": "2026-06-26T02:00:00Z"
+    "kickoffUtc": "2026-06-26T02:00:00+00:00"
   },
   {
     "matchId": "GI5",
