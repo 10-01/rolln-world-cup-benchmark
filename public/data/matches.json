@@ -647,7 +647,7 @@
     "teamA": "New Zealand",
     "teamB": "Belgium",
     "sortOrder": 65,
-    "kickoffUtc": "2026-06-27T03:00:00Z"
+    "kickoffUtc": "2026-06-27T03:00:00+00:00"
   },
   {
     "matchId": "GG6",
@@ -657,7 +657,7 @@
     "teamA": "Egypt",
     "teamB": "Iran",
     "sortOrder": 66,
-    "kickoffUtc": "2026-06-27T03:00:00Z"
+    "kickoffUtc": "2026-06-27T03:00:00+00:00"
   },
   {
     "matchId": "GL5",
