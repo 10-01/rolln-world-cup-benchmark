@@ -667,7 +667,7 @@
     "teamA": "Panama",
     "teamB": "England",
     "sortOrder": 67,
-    "kickoffUtc": "2026-06-27T21:00:00Z"
+    "kickoffUtc": "2026-06-27T21:00:00+00:00"
   },
   {
     "matchId": "GL6",
@@ -677,7 +677,7 @@
     "teamA": "Croatia",
     "teamB": "Ghana",
     "sortOrder": 68,
-    "kickoffUtc": "2026-06-27T21:00:00Z"
+    "kickoffUtc": "2026-06-27T21:00:00+00:00"
   },
   {
     "matchId": "GK5",
