@@ -627,7 +627,7 @@
     "teamA": "Uruguay",
     "teamB": "Spain",
     "sortOrder": 63,
-    "kickoffUtc": "2026-06-27T00:00:00Z"
+    "kickoffUtc": "2026-06-27T00:00:00+00:00"
   },
   {
     "matchId": "GH6",
@@ -637,7 +637,7 @@
     "teamA": "Cape Verde",
     "teamB": "Saudi Arabia",
     "sortOrder": 64,
-    "kickoffUtc": "2026-06-27T00:00:00Z"
+    "kickoffUtc": "2026-06-27T00:00:00+00:00"
   },
   {
     "matchId": "GG5",
