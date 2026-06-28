@@ -687,7 +687,7 @@
     "teamA": "Colombia",
     "teamB": "Portugal",
     "sortOrder": 69,
-    "kickoffUtc": "2026-06-27T23:30:00Z"
+    "kickoffUtc": "2026-06-27T23:30:00+00:00"
   },
   {
     "matchId": "GK6",
@@ -697,7 +697,7 @@
     "teamA": "DR Congo",
     "teamB": "Uzbekistan",
     "sortOrder": 70,
-    "kickoffUtc": "2026-06-27T23:30:00Z"
+    "kickoffUtc": "2026-06-27T23:30:00+00:00"
   },
   {
     "matchId": "GJ5",
