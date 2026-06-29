@@ -730,13 +730,23 @@
     "kickoffUtc": "2026-06-28T19:00:00+00:00"
   },
   {
+    "matchId": "75",
+    "phase": "Knockout",
+    "round": "Round of 32",
+    "group": "",
+    "teamA": "Japan",
+    "teamB": "Brazil",
+    "sortOrder": 74,
+    "kickoffUtc": "2026-06-29T17:00:00+00:00"
+  },
+  {
     "matchId": "76",
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
     "teamA": "Morocco",
     "teamB": "Netherlands",
-    "sortOrder": 74,
+    "sortOrder": 75,
     "kickoffUtc": "2026-06-29T17:00:00Z"
   },
   {
@@ -746,18 +756,8 @@
     "group": "",
     "teamA": "Ivory Coast",
     "teamB": "Australia",
-    "sortOrder": 75,
-    "kickoffUtc": "2026-06-29T20:30:00Z"
-  },
-  {
-    "matchId": "75",
-    "phase": "Knockout",
-    "round": "Round of 32",
-    "group": "",
-    "teamA": "Japan",
-    "teamB": "Brazil",
     "sortOrder": 76,
-    "kickoffUtc": "2026-06-30T01:00:00Z"
+    "kickoffUtc": "2026-06-29T20:30:00Z"
   },
   {
     "matchId": "78",
