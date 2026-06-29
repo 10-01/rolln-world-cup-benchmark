@@ -754,10 +754,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Ivory Coast",
-    "teamB": "Australia",
+    "teamA": "Germany",
+    "teamB": "Paraguay",
     "sortOrder": 76,
-    "kickoffUtc": "2026-06-29T20:30:00Z"
+    "kickoffUtc": "2026-06-29T20:30:00+00:00"
   },
   {
     "matchId": "78",
