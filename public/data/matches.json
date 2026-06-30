@@ -764,10 +764,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Germany",
+    "teamA": "Ivory Coast",
     "teamB": "Norway",
     "sortOrder": 77,
-    "kickoffUtc": "2026-06-30T17:00:00Z"
+    "kickoffUtc": "2026-06-30T17:00:00+00:00"
   },
   {
     "matchId": "77",
