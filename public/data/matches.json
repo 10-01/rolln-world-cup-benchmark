@@ -775,9 +775,9 @@
     "round": "Round of 32",
     "group": "",
     "teamA": "France",
-    "teamB": "Uruguay",
+    "teamB": "Sweden",
     "sortOrder": 78,
-    "kickoffUtc": "2026-06-30T21:00:00Z"
+    "kickoffUtc": "2026-06-30T21:00:00+00:00"
   },
   {
     "matchId": "79",
