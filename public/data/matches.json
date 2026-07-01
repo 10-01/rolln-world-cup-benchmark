@@ -785,9 +785,9 @@
     "round": "Round of 32",
     "group": "",
     "teamA": "Mexico",
-    "teamB": "Senegal",
+    "teamB": "Ecuador",
     "sortOrder": 79,
-    "kickoffUtc": "2026-07-01T01:00:00Z"
+    "kickoffUtc": "2026-07-01T01:00:00+00:00"
   },
   {
     "matchId": "80",
