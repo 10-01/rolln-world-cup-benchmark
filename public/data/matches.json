@@ -804,10 +804,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Egypt",
-    "teamB": "Ecuador",
+    "teamA": "Belgium",
+    "teamB": "Senegal",
     "sortOrder": 81,
-    "kickoffUtc": "2026-07-01T20:00:00Z"
+    "kickoffUtc": "2026-07-01T20:00:00+00:00"
   },
   {
     "matchId": "81",
