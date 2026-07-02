@@ -814,10 +814,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Türkiye",
-    "teamB": "Austria",
+    "teamA": "USA",
+    "teamB": "Bosnia & Herzegovina",
     "sortOrder": 82,
-    "kickoffUtc": "2026-07-02T00:00:00Z"
+    "kickoffUtc": "2026-07-02T00:00:00+00:00"
   },
   {
     "matchId": "84",
