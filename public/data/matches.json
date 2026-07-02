@@ -825,9 +825,9 @@
     "round": "Round of 32",
     "group": "",
     "teamA": "Spain",
-    "teamB": "Algeria",
+    "teamB": "Austria",
     "sortOrder": 83,
-    "kickoffUtc": "2026-07-02T19:00:00Z"
+    "kickoffUtc": "2026-07-02T19:00:00+00:00"
   },
   {
     "matchId": "83",
