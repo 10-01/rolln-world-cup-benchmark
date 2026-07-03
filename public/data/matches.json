@@ -844,10 +844,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Canada",
-    "teamB": "Belgium",
+    "teamA": "Switzerland",
+    "teamB": "Algeria",
     "sortOrder": 85,
-    "kickoffUtc": "2026-07-03T03:00:00Z"
+    "kickoffUtc": "2026-07-03T03:00:00+00:00"
   },
   {
     "matchId": "88",
