@@ -854,10 +854,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "United States",
-    "teamB": "Iran",
+    "teamA": "Australia",
+    "teamB": "Egypt",
     "sortOrder": 86,
-    "kickoffUtc": "2026-07-03T18:00:00Z"
+    "kickoffUtc": "2026-07-03T18:00:00+00:00"
   },
   {
     "matchId": "86",
