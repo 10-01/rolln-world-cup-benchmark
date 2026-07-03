@@ -834,10 +834,10 @@
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Colombia",
+    "teamA": "Portugal",
     "teamB": "Croatia",
     "sortOrder": 84,
-    "kickoffUtc": "2026-07-02T23:00:00Z"
+    "kickoffUtc": "2026-07-02T23:00:00+00:00"
   },
   {
     "matchId": "85",
