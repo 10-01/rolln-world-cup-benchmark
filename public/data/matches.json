@@ -884,10 +884,10 @@
     "phase": "Knockout",
     "round": "Round of 16",
     "group": "",
-    "teamA": "Ivory Coast",
-    "teamB": "France",
+    "teamA": "Canada",
+    "teamB": "Morocco",
     "sortOrder": 89,
-    "kickoffUtc": "2026-07-04T17:00:00Z"
+    "kickoffUtc": "2026-07-04T17:00:00+00:00"
   },
   {
     "matchId": "89",
