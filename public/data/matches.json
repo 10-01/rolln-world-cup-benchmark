@@ -867,17 +867,17 @@
     "teamA": "Argentina",
     "teamB": "Cape Verde",
     "sortOrder": 87,
-    "kickoffUtc": "2026-07-03T22:00:00Z"
+    "kickoffUtc": "2026-07-03T22:00:00+00:00"
   },
   {
     "matchId": "87",
     "phase": "Knockout",
     "round": "Round of 32",
     "group": "",
-    "teamA": "Portugal",
-    "teamB": "Panama",
+    "teamA": "Colombia",
+    "teamB": "Ghana",
     "sortOrder": 88,
-    "kickoffUtc": "2026-07-04T01:30:00Z"
+    "kickoffUtc": "2026-07-04T01:30:00+00:00"
   },
   {
     "matchId": "90",
