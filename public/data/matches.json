@@ -917,7 +917,7 @@
     "teamA": "Mexico",
     "teamB": "England",
     "sortOrder": 92,
-    "kickoffUtc": "2026-07-06T00:00:00Z"
+    "kickoffUtc": "2026-07-06T01:00:00+00:00"
   },
   {
     "matchId": "93",
