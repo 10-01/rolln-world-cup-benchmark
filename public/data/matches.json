@@ -954,10 +954,10 @@
     "phase": "Knockout",
     "round": "Round of 16",
     "group": "",
-    "teamA": "Canada",
-    "teamB": "Portugal",
+    "teamA": "Switzerland",
+    "teamB": "Colombia",
     "sortOrder": 96,
-    "kickoffUtc": "2026-07-07T20:00:00Z"
+    "kickoffUtc": "2026-07-07T20:00:00+00:00"
   },
   {
     "matchId": "97",
