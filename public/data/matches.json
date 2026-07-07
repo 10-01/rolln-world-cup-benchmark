@@ -934,10 +934,10 @@
     "phase": "Knockout",
     "round": "Round of 16",
     "group": "",
-    "teamA": "Türkiye",
-    "teamB": "Egypt",
+    "teamA": "USA",
+    "teamB": "Belgium",
     "sortOrder": 94,
-    "kickoffUtc": "2026-07-07T00:00:00Z"
+    "kickoffUtc": "2026-07-07T00:00:00+00:00"
   },
   {
     "matchId": "95",
