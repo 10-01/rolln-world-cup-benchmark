@@ -964,10 +964,10 @@
     "phase": "Knockout",
     "round": "Quarter-final",
     "group": "",
-    "teamA": "Japan",
-    "teamB": "France",
+    "teamA": "France",
+    "teamB": "Morocco",
     "sortOrder": 97,
-    "kickoffUtc": "2026-07-09T20:00:00Z"
+    "kickoffUtc": "2026-07-09T20:00:00+00:00"
   },
   {
     "matchId": "98",
