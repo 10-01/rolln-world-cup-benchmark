@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T17:51:39.577Z",
+  "generatedAt": "2026-07-09T19:37:53.239Z",
   "models": [
     {
       "key": "fable-5-high",
@@ -13075,7 +13075,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489369",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GA2",
@@ -13092,7 +13092,7 @@
       "winner": "South Korea",
       "apiFixtureId": "1538999",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GA3",
@@ -13109,7 +13109,7 @@
       "winner": "",
       "apiFixtureId": "1539004",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GA4",
@@ -13126,7 +13126,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1489388",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GA5",
@@ -13143,7 +13143,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1539010",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GA6",
@@ -13160,7 +13160,7 @@
       "winner": "South Africa",
       "apiFixtureId": "1489407",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GB1",
@@ -13177,7 +13177,7 @@
       "winner": "",
       "apiFixtureId": "1539000",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GB2",
@@ -13194,7 +13194,7 @@
       "winner": "",
       "apiFixtureId": "1489373",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GB3",
@@ -13211,7 +13211,7 @@
       "winner": "Switzerland",
       "apiFixtureId": "1539005",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GB4",
@@ -13228,7 +13228,7 @@
       "winner": "Canada",
       "apiFixtureId": "1489387",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GB5",
@@ -13245,7 +13245,7 @@
       "winner": "Switzerland",
       "apiFixtureId": "1489408",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GB6",
@@ -13262,7 +13262,7 @@
       "winner": "Bosnia and Herzegovina",
       "apiFixtureId": "1539009",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GC1",
@@ -13279,7 +13279,7 @@
       "winner": "",
       "apiFixtureId": "1489371",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GC2",
@@ -13296,7 +13296,7 @@
       "winner": "Scotland",
       "apiFixtureId": "1489372",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GC3",
@@ -13313,7 +13313,7 @@
       "winner": "Morocco",
       "apiFixtureId": "1489390",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GC4",
@@ -13330,7 +13330,7 @@
       "winner": "Brazil",
       "apiFixtureId": "1489389",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GC5",
@@ -13347,7 +13347,7 @@
       "winner": "Brazil",
       "apiFixtureId": "1489406",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GC6",
@@ -13364,7 +13364,7 @@
       "winner": "Morocco",
       "apiFixtureId": "1489405",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GD1",
@@ -13381,7 +13381,7 @@
       "winner": "United States",
       "apiFixtureId": "1489370",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GD2",
@@ -13398,7 +13398,7 @@
       "winner": "Australia",
       "apiFixtureId": "1539001",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GD3",
@@ -13415,7 +13415,7 @@
       "winner": "Paraguay",
       "apiFixtureId": "1539006",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GD4",
@@ -13432,7 +13432,7 @@
       "winner": "United States",
       "apiFixtureId": "1489391",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GD5",
@@ -13449,7 +13449,7 @@
       "winner": "Türkiye",
       "apiFixtureId": "1539012",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GD6",
@@ -13466,7 +13466,7 @@
       "winner": "",
       "apiFixtureId": "1489411",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GE1",
@@ -13483,7 +13483,7 @@
       "winner": "Germany",
       "apiFixtureId": "1489374",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GE2",
@@ -13500,7 +13500,7 @@
       "winner": "Ivory Coast",
       "apiFixtureId": "1489375",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GE3",
@@ -13517,7 +13517,7 @@
       "winner": "",
       "apiFixtureId": "1489392",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GE4",
@@ -13534,7 +13534,7 @@
       "winner": "Germany",
       "apiFixtureId": "1489393",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GE5",
@@ -13551,7 +13551,7 @@
       "winner": "Ecuador",
       "apiFixtureId": "1489410",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GE6",
@@ -13568,7 +13568,7 @@
       "winner": "Ivory Coast",
       "apiFixtureId": "1489409",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GF1",
@@ -13585,7 +13585,7 @@
       "winner": "",
       "apiFixtureId": "1489376",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GF2",
@@ -13602,7 +13602,7 @@
       "winner": "Sweden",
       "apiFixtureId": "1539002",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GF3",
@@ -13619,7 +13619,7 @@
       "winner": "Japan",
       "apiFixtureId": "1489394",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GF4",
@@ -13636,7 +13636,7 @@
       "winner": "Netherlands",
       "apiFixtureId": "1539007",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GF5",
@@ -13653,7 +13653,7 @@
       "winner": "Netherlands",
       "apiFixtureId": "1489412",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GF6",
@@ -13670,7 +13670,7 @@
       "winner": "",
       "apiFixtureId": "1539011",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GG1",
@@ -13687,7 +13687,7 @@
       "winner": "",
       "apiFixtureId": "1489377",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GG2",
@@ -13704,7 +13704,7 @@
       "winner": "",
       "apiFixtureId": "1489378",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GG3",
@@ -13721,7 +13721,7 @@
       "winner": "Egypt",
       "apiFixtureId": "1489396",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GG4",
@@ -13738,7 +13738,7 @@
       "winner": "",
       "apiFixtureId": "1489395",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GG5",
@@ -13755,7 +13755,7 @@
       "winner": "Belgium",
       "apiFixtureId": "1489415",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GG6",
@@ -13772,7 +13772,7 @@
       "winner": "",
       "apiFixtureId": "1489414",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GH1",
@@ -13789,7 +13789,7 @@
       "winner": "",
       "apiFixtureId": "1489380",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GH2",
@@ -13806,7 +13806,7 @@
       "winner": "",
       "apiFixtureId": "1489379",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GH3",
@@ -13823,7 +13823,7 @@
       "winner": "",
       "apiFixtureId": "1489398",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GH4",
@@ -13840,7 +13840,7 @@
       "winner": "Spain",
       "apiFixtureId": "1489397",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GH5",
@@ -13857,7 +13857,7 @@
       "winner": "Spain",
       "apiFixtureId": "1489417",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GH6",
@@ -13874,7 +13874,7 @@
       "winner": "",
       "apiFixtureId": "1489413",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GI1",
@@ -13891,7 +13891,7 @@
       "winner": "France",
       "apiFixtureId": "1489383",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GI2",
@@ -13908,7 +13908,7 @@
       "winner": "Norway",
       "apiFixtureId": "1539016",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GI3",
@@ -13925,7 +13925,7 @@
       "winner": "Norway",
       "apiFixtureId": "1489401",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GI4",
@@ -13942,7 +13942,7 @@
       "winner": "France",
       "apiFixtureId": "1539017",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GI5",
@@ -13959,7 +13959,7 @@
       "winner": "France",
       "apiFixtureId": "1489416",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GI6",
@@ -13976,7 +13976,7 @@
       "winner": "Senegal",
       "apiFixtureId": "1539074",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GJ1",
@@ -13993,7 +13993,7 @@
       "winner": "Argentina",
       "apiFixtureId": "1489381",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GJ2",
@@ -14010,7 +14010,7 @@
       "winner": "Austria",
       "apiFixtureId": "1489382",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GJ3",
@@ -14027,7 +14027,7 @@
       "winner": "Algeria",
       "apiFixtureId": "1489400",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GJ4",
@@ -14044,7 +14044,7 @@
       "winner": "Argentina",
       "apiFixtureId": "1489399",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GJ5",
@@ -14061,7 +14061,7 @@
       "winner": "Argentina",
       "apiFixtureId": "1489421",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GJ6",
@@ -14078,7 +14078,7 @@
       "winner": "",
       "apiFixtureId": "1489418",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GK1",
@@ -14095,7 +14095,7 @@
       "winner": "",
       "apiFixtureId": "1539003",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GK2",
@@ -14112,7 +14112,7 @@
       "winner": "Colombia",
       "apiFixtureId": "1489386",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GK3",
@@ -14129,7 +14129,7 @@
       "winner": "Colombia",
       "apiFixtureId": "1539008",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GK4",
@@ -14146,7 +14146,7 @@
       "winner": "Portugal",
       "apiFixtureId": "1489404",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GK5",
@@ -14163,7 +14163,7 @@
       "winner": "",
       "apiFixtureId": "1489419",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GK6",
@@ -14180,7 +14180,7 @@
       "winner": "DR Congo",
       "apiFixtureId": "1539013",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GL1",
@@ -14197,7 +14197,7 @@
       "winner": "England",
       "apiFixtureId": "1489384",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GL2",
@@ -14214,7 +14214,7 @@
       "winner": "Ghana",
       "apiFixtureId": "1489385",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GL3",
@@ -14231,7 +14231,7 @@
       "winner": "Croatia",
       "apiFixtureId": "1489403",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GL4",
@@ -14248,7 +14248,7 @@
       "winner": "",
       "apiFixtureId": "1489402",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GL5",
@@ -14265,7 +14265,7 @@
       "winner": "England",
       "apiFixtureId": "1489422",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "GL6",
@@ -14282,7 +14282,7 @@
       "winner": "Croatia",
       "apiFixtureId": "1489420",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "73",
@@ -14299,7 +14299,7 @@
       "winner": "Canada",
       "apiFixtureId": "1561329",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "74",
@@ -14316,7 +14316,7 @@
       "winner": "",
       "apiFixtureId": "1565176",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "75",
@@ -14333,7 +14333,7 @@
       "winner": "Brazil",
       "apiFixtureId": "1562344",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "76",
@@ -14350,7 +14350,7 @@
       "winner": "",
       "apiFixtureId": "1562345",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "77",
@@ -14367,7 +14367,7 @@
       "winner": "France",
       "apiFixtureId": "1565177",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "78",
@@ -14384,7 +14384,7 @@
       "winner": "Norway",
       "apiFixtureId": "1564789",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "79",
@@ -14401,7 +14401,7 @@
       "winner": "Mexico",
       "apiFixtureId": "1567306",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "80",
@@ -14418,7 +14418,7 @@
       "winner": "England",
       "apiFixtureId": "1567307",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "81",
@@ -14435,7 +14435,7 @@
       "winner": "USA",
       "apiFixtureId": "1562586",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "82",
@@ -14452,7 +14452,7 @@
       "winner": "Belgium",
       "apiFixtureId": "1567308",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "83",
@@ -14469,7 +14469,7 @@
       "winner": "Portugal",
       "apiFixtureId": "1567309",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "84",
@@ -14486,7 +14486,7 @@
       "winner": "Spain",
       "apiFixtureId": "1567311",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "85",
@@ -14503,7 +14503,7 @@
       "winner": "Switzerland",
       "apiFixtureId": "1567312",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "86",
@@ -14520,7 +14520,7 @@
       "winner": "Argentina",
       "apiFixtureId": "1565179",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "87",
@@ -14537,7 +14537,7 @@
       "winner": "Colombia",
       "apiFixtureId": "1567310",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "88",
@@ -14554,7 +14554,7 @@
       "winner": "",
       "apiFixtureId": "1565178",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "89",
@@ -14571,7 +14571,7 @@
       "winner": "France",
       "apiFixtureId": "1569870",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "90",
@@ -14588,7 +14588,7 @@
       "winner": "Morocco",
       "apiFixtureId": "1567824",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "91",
@@ -14605,7 +14605,7 @@
       "winner": "Norway",
       "apiFixtureId": "1568100",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "92",
@@ -14622,7 +14622,7 @@
       "winner": "England",
       "apiFixtureId": "1570714",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "93",
@@ -14639,7 +14639,7 @@
       "winner": "Spain",
       "apiFixtureId": "1576756",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "94",
@@ -14656,7 +14656,7 @@
       "winner": "Belgium",
       "apiFixtureId": "1570715",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "95",
@@ -14673,7 +14673,7 @@
       "winner": "Argentina",
       "apiFixtureId": "1576804",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "96",
@@ -14690,7 +14690,7 @@
       "winner": "",
       "apiFixtureId": "1576805",
       "source": "api-football",
-      "updatedAt": "2026-07-09T17:51:39.425Z"
+      "updatedAt": "2026-07-09T19:37:53.076Z"
     },
     {
       "matchId": "97",
