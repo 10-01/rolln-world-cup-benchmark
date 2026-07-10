@@ -975,9 +975,9 @@
     "round": "Quarter-final",
     "group": "",
     "teamA": "Spain",
-    "teamB": "Egypt",
+    "teamB": "Belgium",
     "sortOrder": 98,
-    "kickoffUtc": "2026-07-10T19:00:00Z"
+    "kickoffUtc": "2026-07-10T19:00:00+00:00"
   },
   {
     "matchId": "99",
