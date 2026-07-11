@@ -984,10 +984,10 @@
     "phase": "Knockout",
     "round": "Quarter-final",
     "group": "",
-    "teamA": "Morocco",
+    "teamA": "Norway",
     "teamB": "England",
     "sortOrder": 99,
-    "kickoffUtc": "2026-07-11T21:00:00Z"
+    "kickoffUtc": "2026-07-11T21:00:00+00:00"
   },
   {
     "matchId": "100",
