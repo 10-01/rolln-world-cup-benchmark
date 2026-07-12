@@ -995,9 +995,9 @@
     "round": "Quarter-final",
     "group": "",
     "teamA": "Argentina",
-    "teamB": "Portugal",
+    "teamB": "Switzerland",
     "sortOrder": 100,
-    "kickoffUtc": "2026-07-12T01:00:00Z"
+    "kickoffUtc": "2026-07-12T01:00:00+00:00"
   },
   {
     "matchId": "101",
