@@ -1007,7 +1007,7 @@
     "teamA": "France",
     "teamB": "Spain",
     "sortOrder": 101,
-    "kickoffUtc": "2026-07-14T19:00:00Z"
+    "kickoffUtc": "2026-07-14T19:00:00+00:00"
   },
   {
     "matchId": "102",
