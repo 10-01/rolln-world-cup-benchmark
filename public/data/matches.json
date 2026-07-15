@@ -1014,10 +1014,10 @@
     "phase": "Knockout",
     "round": "Semi-final",
     "group": "",
-    "teamA": "Morocco",
+    "teamA": "England",
     "teamB": "Argentina",
     "sortOrder": 102,
-    "kickoffUtc": "2026-07-15T19:00:00Z"
+    "kickoffUtc": "2026-07-15T19:00:00+00:00"
   },
   {
     "matchId": "103",
